@@ -16,6 +16,6 @@ export function TabsTrigger({ value, children, className = '', onClick }: { valu
   );
 }
 
-export function TabsContent({ value, children }: { value: string; children: ReactNode }) {
-  return <div>{children}</div>;
+export function TabsContent({ value, children, className = '' }: { value: string; children: ReactNode; className?: string }) {
+  return <div className={className}>{children}</div>;
 }
