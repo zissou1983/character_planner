@@ -1,0 +1,13 @@
+
+[
+  {
+    "id": "human",
+    "name": "Human",
+    "description": "Versatile and ambitious."
+  },
+  {
+    "id": "elf",
+    "name": "Elf",
+    "description": "Graceful and keen-sensed."
+  }
+]

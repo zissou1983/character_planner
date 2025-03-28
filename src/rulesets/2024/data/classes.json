@@ -1,0 +1,17 @@
+[
+  {
+    "id": "fighter",
+    "name": "Fighter",
+    "hitDie": "d10"
+  },
+  {
+    "id": "wizard",
+    "name": "Wizard",
+    "hitDie": "d6"
+  },
+  {
+    "id": "cleric",
+    "name": "Cleric",
+    "hitDie": "d8"
+  }
+]

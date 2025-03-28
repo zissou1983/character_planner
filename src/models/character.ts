@@ -43,8 +43,8 @@ export interface CharacterEquipment {
 export interface Character {
   id: string; // UUID oder eindeutiger Bezeichner
   name: string;
-  race: string;
-  subrace?: string;
+  species: string;
+  lineage?: string;
   class: string;
   subclass?: string;
   level: number;
@@ -74,5 +74,5 @@ export interface Spell {
   classList: string[]; // Welche Klassen diesen Zauber nutzen können
 }
 
-// ToDo: Interfaces für Race, Class, Subclass, Background, Feat etc.
+// ToDo: Interfaces für Species, Class, Subclass, Background, Feat etc.
 // Diese können jeweils z. B. passives Wissen (Sprachen, Proficiencies), Attributsboni usw. enthalten.
