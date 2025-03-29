@@ -1,17 +1,122 @@
 [
   {
-    "id": "fighter",
-    "name": "Fighter",
-    "hitDie": "d10"
+    "id": "barbarian",
+    "name": "Barbarian",
+    "hitDie": "d12",
+    "subclasses": [
+      "Path of the Berserker",
+      "Path of the Totem Warrior"
+    ],
+    "spellcasting": false
   },
   {
-    "id": "wizard",
-    "name": "Wizard",
-    "hitDie": "d6"
+    "id": "bard",
+    "name": "Bard",
+    "hitDie": "d8",
+    "subclasses": [
+      "College of Lore",
+      "College of Valor"
+    ],
+    "spellcasting": true
   },
   {
     "id": "cleric",
     "name": "Cleric",
-    "hitDie": "d8"
+    "hitDie": "d8",
+    "subclasses": [
+      "Life Domain",
+      "Light Domain"
+    ],
+    "spellcasting": true
+  },
+  {
+    "id": "druid",
+    "name": "Druid",
+    "hitDie": "d8",
+    "subclasses": [
+      "Circle of the Land",
+      "Circle of the Moon"
+    ],
+    "spellcasting": true
+  },
+  {
+    "id": "fighter",
+    "name": "Fighter",
+    "hitDie": "d10",
+    "subclasses": [
+      "Champion",
+      "Battle Master"
+    ],
+    "spellcasting": false
+  },
+  {
+    "id": "monk",
+    "name": "Monk",
+    "hitDie": "d8",
+    "subclasses": [
+      "Way of the Open Hand",
+      "Way of Shadow"
+    ],
+    "spellcasting": false
+  },
+  {
+    "id": "paladin",
+    "name": "Paladin",
+    "hitDie": "d10",
+    "subclasses": [
+      "Oath of Devotion",
+      "Oath of Vengeance"
+    ],
+    "spellcasting": true
+  },
+  {
+    "id": "ranger",
+    "name": "Ranger",
+    "hitDie": "d10",
+    "subclasses": [
+      "Hunter",
+      "Beast Master"
+    ],
+    "spellcasting": true
+  },
+  {
+    "id": "rogue",
+    "name": "Rogue",
+    "hitDie": "d8",
+    "subclasses": [
+      "Thief",
+      "Assassin"
+    ],
+    "spellcasting": false
+  },
+  {
+    "id": "sorcerer",
+    "name": "Sorcerer",
+    "hitDie": "d6",
+    "subclasses": [
+      "Draconic Bloodline",
+      "Wild Magic"
+    ],
+    "spellcasting": true
+  },
+  {
+    "id": "warlock",
+    "name": "Warlock",
+    "hitDie": "d8",
+    "subclasses": [
+      "The Fiend",
+      "The Archfey"
+    ],
+    "spellcasting": true
+  },
+  {
+    "id": "wizard",
+    "name": "Wizard",
+    "hitDie": "d6",
+    "subclasses": [
+      "School of Evocation",
+      "School of Illusion"
+    ],
+    "spellcasting": true
   }
 ]

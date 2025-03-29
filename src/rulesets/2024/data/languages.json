@@ -1,0 +1,86 @@
+[
+  {
+    "id": "common",
+    "name": "Common",
+    "script": "Common",
+    "description": "The most widely spoken language across the realms."
+  },
+  {
+    "id": "elvish",
+    "name": "Elvish",
+    "script": "Elven",
+    "description": "The melodic language of the elves."
+  },
+  {
+    "id": "dwarvish",
+    "name": "Dwarvish",
+    "script": "Dwarvish",
+    "description": "A guttural language rich with history and tradition."
+  },
+  {
+    "id": "draconic",
+    "name": "Draconic",
+    "script": "Draconic",
+    "description": "The ancient tongue of dragons and dragonborn."
+  },
+  {
+    "id": "orc",
+    "name": "Orc",
+    "script": "Dwarvish",
+    "description": "A harsh, brutal language used by orcs."
+  },
+  {
+    "id": "halfling",
+    "name": "Halfling",
+    "script": "Common",
+    "description": "A cheerful dialect spoken by halflings."
+  },
+  {
+    "id": "gnomish",
+    "name": "Gnomish",
+    "script": "Dwarvish",
+    "description": "A language full of technical nuance, used by gnomes."
+  },
+  {
+    "id": "goblin",
+    "name": "Goblin",
+    "script": "Dwarvish",
+    "description": "The chittering language of goblinoids."
+  },
+  {
+    "id": "giant",
+    "name": "Giant",
+    "script": "Dwarvish",
+    "description": "The booming tongue of giants and ogres."
+  },
+  {
+    "id": "sylvan",
+    "name": "Sylvan",
+    "script": "Elven",
+    "description": "The language of the Feywild, spoken by fey creatures."
+  },
+  {
+    "id": "abyssal",
+    "name": "Abyssal",
+    "script": "Infernal",
+    "description": "The language of demons and the Abyss."
+  },
+  {
+    "id": "celestial",
+    "name": "Celestial",
+    "script": "Celestial",
+    "description": "The divine language of celestial beings."
+  },
+  {
+    "id": "infernal",
+    "name": "Infernal",
+    "script": "Infernal",
+    "description": "The language of devils and the Nine Hells."
+  },
+  {
+    "id": "primordial",
+    "name": "Primordial",
+    "script": "Primordial",
+    "description": "The elemental language of air, earth, fire, and water."
+  }
+]

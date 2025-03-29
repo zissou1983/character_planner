@@ -1,0 +1,16 @@
+[
+  {
+    "id": "fireball",
+    "name": "Fireball",
+    "level": 3,
+    "school": "Evocation",
+    "description": "Deals fire damage in an area."
+  },
+  {
+    "id": "cure-wounds",
+    "name": "Cure Wounds",
+    "level": 1,
+    "school": "Evocation",
+    "description": "Heals a target."
+  }
+]

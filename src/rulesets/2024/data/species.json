@@ -1,13 +1,104 @@
-
 [
   {
     "id": "human",
     "name": "Human",
-    "description": "Versatile and ambitious."
+    "description": "An adaptable and ambitious people found in every corner of the world.",
+    "lineages": [
+      {
+        "id": "variant-human",
+        "name": "Variant Human",
+        "description": "Humans who gain versatility and a feat early in their career."
+      }
+    ]
   },
   {
     "id": "elf",
     "name": "Elf",
-    "description": "Graceful and keen-sensed."
+    "description": "Graceful beings with long lifespans and a deep connection to magic and nature.",
+    "lineages": [
+      {
+        "id": "high-elf",
+        "name": "High Elf",
+        "description": "Wielders of arcane might, hailing from refined elven societies."
+      },
+      {
+        "id": "wood-elf",
+        "name": "Wood Elf",
+        "description": "Stealthy forest dwellers attuned to nature."
+      },
+      {
+        "id": "drow",
+        "name": "Drow (Dark Elf)",
+        "description": "Elves of the Underdark, known for their darkvision and innate magic."
+      }
+    ]
+  },
+  {
+    "id": "dwarf",
+    "name": "Dwarf",
+    "description": "Stout and resilient, renowned for their craftsmanship and loyalty.",
+    "lineages": [
+      {
+        "id": "hill-dwarf",
+        "name": "Hill Dwarf",
+        "description": "Hardy and wise, with a deep connection to the earth."
+      },
+      {
+        "id": "mountain-dwarf",
+        "name": "Mountain Dwarf",
+        "description": "Strong and enduring, often found in alpine strongholds."
+      }
+    ]
+  },
+  {
+    "id": "halfling",
+    "name": "Halfling",
+    "description": "Small and cheerful folk, known for their luck and stealth.",
+    "lineages": [
+      {
+        "id": "lightfoot",
+        "name": "Lightfoot Halfling",
+        "description": "Stealthy and sociable, able to hide behind larger creatures."
+      },
+      {
+        "id": "stout",
+        "name": "Stout Halfling",
+        "description": "Hardier than most, with a resistance to poison."
+      }
+    ]
+  },
+  {
+    "id": "tiefling",
+    "name": "Tiefling",
+    "description": "Descendants of infernal heritage, marked by horns, tails, and fiendish magic.",
+    "lineages": [
+      {
+        "id": "asmodian",
+        "name": "Asmodian Tiefling",
+        "description": "Born from pacts with Asmodeus, steeped in infernal power."
+      },
+      {
+        "id": "fierna",
+        "name": "Fierna Tiefling",
+        "description": "Seductive and charismatic, tied to the archdevil Fierna."
+      }
+    ]
+  },
+  {
+    "id": "dragonborn",
+    "name": "Dragonborn",
+    "description": "Proud draconic humanoids with breath weapons and ancestral ties to dragons.",
+    "lineages": [
+      {
+        "id": "chromatic",
+        "name": "Chromatic Dragonborn",
+        "description": "Descended from evil dragons, with elemental breath."
+      },
+      {
+        "id": "metallic",
+        "name": "Metallic Dragonborn",
+        "description": "Descended from noble dragons, champions of justice."
+      }
+    ]
   }
 ]
