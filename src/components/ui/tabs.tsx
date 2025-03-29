@@ -1,21 +1,29 @@
-import { ReactNode } from 'react';
+import * as React from "react";
+import * as TabsPrimitive from "@radix-ui/react-tabs";
+import { cn } from "@/lib/utils"; // ✔️ deine cn() ist korrekt!
 
-export function Tabs({ value, children, className = '' }: { value: string; children: ReactNode; className?: string }) {
-  return <div className={className}>{children}</div>;
-}
+export const Tabs = TabsPrimitive.Root;
 
-export function TabsList({ children, className = '' }: { children: ReactNode; className?: string }) {
-  return <div className={className}>{children}</div>;
-}
+export const TabsList = React.forwardRef<
+  React.ElementRef<typeof TabsPrimitive.List>,
+  React.ComponentPropsWithoutRef<typeof TabsPrimitive.List> & { className?: string }
+>(({ className, ...props }, ref) => (
+  <TabsPrimitive.List ref={ref} className={cn(className)} {...props} />
+));
+TabsList.displayName = TabsPrimitive.List.displayName;
 
-export function TabsTrigger({ value, children, className = '', onClick }: { value: string; children: ReactNode; className?: string; onClick: () => void }) {
-  return (
-    <button onClick={onClick} className={`px-2 py-1 rounded ${className}`}>
-      {children}
-    </button>
-  );
-}
+export const TabsTrigger = React.forwardRef<
+  React.ElementRef<typeof TabsPrimitive.Trigger>,
+  React.ComponentPropsWithoutRef<typeof TabsPrimitive.Trigger> & { className?: string }
+>(({ className, ...props }, ref) => (
+  <TabsPrimitive.Trigger ref={ref} className={cn(className)} {...props} />
+));
+TabsTrigger.displayName = TabsPrimitive.Trigger.displayName;
 
-export function TabsContent({ value, children, className = '' }: { value: string; children: ReactNode; className?: string }) {
-  return <div className={className}>{children}</div>;
-}
+export const TabsContent = React.forwardRef<
+  React.ElementRef<typeof TabsPrimitive.Content>,
+  React.ComponentPropsWithoutRef<typeof TabsPrimitive.Content> & { className?: string }
+>(({ className, ...props }, ref) => (
+  <TabsPrimitive.Content ref={ref} className={cn(className)} {...props} />
+));
+TabsContent.displayName = TabsPrimitive.Content.displayName;

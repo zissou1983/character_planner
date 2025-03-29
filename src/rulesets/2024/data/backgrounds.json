@@ -1,0 +1,18 @@
+[
+    {
+      "id": "acolyte",
+      "name": "Acolyte",
+      "description": "You have spent your life in the service of a temple."
+    },
+    {
+      "id": "criminal",
+      "name": "Criminal",
+      "description": "You have a history of breaking the law."
+    },
+    {
+      "id": "sage",
+      "name": "Sage",
+      "description": "You spent years learning the lore of the multiverse."
+    }
+  ]
+  
