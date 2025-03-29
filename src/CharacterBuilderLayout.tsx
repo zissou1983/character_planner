@@ -2,7 +2,9 @@ import { useState } from 'react';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-
+import * as React from 'react'
+import { cva, type VariantProps } from 'class-variance-authority'
+import { cn } from '@/lib/utils'
 import classListRaw from '@/rulesets/2024/data/classes.json';
 import speciesRaw from '@/rulesets/2024/data/species.json';
 import backgroundListRaw from '@/rulesets/2024/data/backgrounds.json';
@@ -70,7 +72,14 @@ interface EquipmentItem {
   availableIn: string[];
 }
 
-const steps = ['class', 'background', 'species', 'languages', 'abilities', 'equipment', 'feats', 'summary'];
+interface TreasureItem {
+  id: string;
+  name: string;
+  description: string;
+  category: string;
+}
+
+const steps = ['class', 'background', 'species', 'details', 'abilities', 'equipment', 'inventory', 'additional', 'feats', 'summary'];
 const INITIAL_ABILITY_SCORE = 8;
 const MAX_ABILITY_SCORE = 15;
 const MIN_ABILITY_SCORE = 8;
@@ -82,7 +91,14 @@ const speciesList = speciesRaw as Species[];
 const abilityList = abilityListRaw as Ability[];
 const featsList = featsRaw as Feat[];
 const languageList = languageListRaw as Language[];
-const equipmentList = equipmentListRaw as EquipmentItem[];
+const equipmentList: EquipmentItem[] = equipmentListRaw.map((item) => ({
+  ...item,
+  weight: parseFloat(item.weight),
+  cost: parseFloat(item.cost),
+  cheap: parseFloat(item.cheap),
+  expensive: parseFloat(item.expensive),
+}));
+
 
 export default function CharacterBuilderLayout() {
   const [activeTab, setActiveTab] = useState('class');
@@ -93,9 +109,24 @@ export default function CharacterBuilderLayout() {
   const [selectedLanguages, setSelectedLanguages] = useState<string[]>([]);
   const [selectedLevel, setSelectedLevel] = useState(1);
   const [selectedFeats, setSelectedFeats] = useState<string[]>([]);
+  const [characterName, setCharacterName] = useState('');
+  const [characterGender, setCharacterGender] = useState('');
+  const [characterAlignment, setCharacterAlignment] = useState('');
   const [abilities, setAbilities] = useState<Record<string, number>>(
     Object.fromEntries(abilityList.map((a) => [a.id, INITIAL_ABILITY_SCORE]))
   );
+  const [selectedEquipmentCategory, setSelectedEquipmentCategory] = useState('');
+  const [selectedEquipment, setSelectedEquipment] = useState<string[]>([]);
+  const [equipmentSubTab, setEquipmentSubTab] = useState('equipment-selection');
+  const [selectedItem, setSelectedItem] = useState<EquipmentItem | null>(null);
+  const [equippedItems, setEquippedItems] = useState<EquipmentItem[]>([]);
+  const [inventoryItems, setInventoryItems] = useState<EquipmentItem[]>([]);
+  const [treasureItems, setTreasureItems] = useState<TreasureItem[]>([]);
+  const [newTreasure, setNewTreasure] = useState<Omit<TreasureItem, 'id'>>({
+    name: '',
+    description: '',
+    category: 'Other',
+  });
 
   const calculatePointCost = (score: number): number => {
     if (score <= 13) return score - 8;
@@ -131,6 +162,24 @@ export default function CharacterBuilderLayout() {
     if (nextTab) setActiveTab(nextTab);
   };
 
+  const handleAddTreasure = () => {
+    if (!newTreasure.name.trim()) return;
+  
+    setTreasureItems((prev) => [
+      ...prev,
+      {
+        id: `treasure-${Date.now()}`,
+        ...newTreasure,
+      },
+    ]);
+  
+    setNewTreasure({ name: '', description: '', category: 'Other' });
+  };
+ 
+  const handleRemoveTreasure = (id: string) => {
+    setTreasureItems((prev) => prev.filter((item) => item.id !== id));
+  };
+  
   const getFilteredFeats = (category: Feat['category']) => {
     return featsList.filter((feat) => {
       if (feat.category !== category) return false;
@@ -149,6 +198,44 @@ export default function CharacterBuilderLayout() {
       return true;
     });
   };
+  const buttonVariants = cva(
+    'inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-ring',
+    {
+      variants: {
+        variant: {
+          default: 'bg-primary text-white hover:bg-primary/90',
+          outline: 'border border-input bg-background hover:bg-accent hover:text-accent-foreground',
+          ghost: 'hover:bg-accent hover:text-accent-foreground',
+          link: 'underline-offset-4 hover:underline text-primary',
+        },
+      },
+      defaultVariants: {
+        variant: 'default',
+      },
+    }
+  )
+  const handleEquipItem = (item: EquipmentItem) => {
+    setEquippedItems((prev) =>
+      prev.find((i) => i.id === item.id)
+        ? prev
+        : [...prev, item]
+    );
+  };
+
+  const handleAddToInventory = (item: EquipmentItem) => {
+    setInventoryItems((prev) =>
+      prev.find((i) => i.id === item.id)
+        ? prev
+        : [...prev, item]
+    );
+  };
+  
+  const handleRemoveEquipment = (id: string) => {
+    setSelectedEquipment((prev) => prev.filter((itemId) => itemId !== id));
+  };
+
+  const equipmentCategories = Array.from(new Set(equipmentList.map(item => item.category))).sort();
+  const filteredEquipment = equipmentList.filter(item => item.category === selectedEquipmentCategory);
 
   return (
     <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-6">
@@ -265,38 +352,6 @@ export default function CharacterBuilderLayout() {
         </Card>
       </TabsContent>
 
-      {/* === LANGUAGES === */}
-      <TabsContent value="languages">
-        <Card>
-          <CardContent className="p-6 space-y-4">
-            <h3 className="text-2xl font-bold">Wähle deine Sprachen</h3>
-            <div className="grid grid-cols-2 gap-2">
-              {languageList.map((lang) => (
-                <label key={lang.id} className="cursor-pointer">
-                  <input
-                    type="checkbox"
-                    name={lang.id}
-                    checked={selectedLanguages.includes(lang.id)}
-                    onChange={() => {
-                      setSelectedLanguages((prev) =>
-                        prev.includes(lang.id)
-                          ? prev.filter((id) => id !== lang.id)
-                          : [...prev, lang.id]
-                      );
-                    }}
-                    className="mr-2"
-                  />
-                  {lang.name}
-                </label>
-              ))}
-            </div>
-            <Button onClick={handleContinue} disabled={selectedLanguages.length === 0}>
-              Weiter
-            </Button>
-          </CardContent>
-        </Card>
-      </TabsContent>
-
       {/* === ABILITIES === */}
       <TabsContent value="abilities">
         <Card>
@@ -377,24 +432,295 @@ export default function CharacterBuilderLayout() {
       <TabsContent value="equipment">
         <Card>
           <CardContent className="p-6 space-y-4">
-            <h3 className="text-2xl font-bold">Wähle deine Ausrüstung</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {equipmentList.map((item) => (
-                <div key={item.id} className="border rounded p-3 bg-white">
-                  <div className="font-semibold">{item.name}</div>
-                  <div className="text-sm text-gray-600">{item.subCategory || item.category}</div>
-                  <div className="text-sm">Gewicht: {item.weight} lb</div>
-                  <div className="text-sm">Kosten: {item.cost} GP (⭣ {item.cheap}, ⭡ {item.expensive})</div>
-                  <div className="text-xs text-gray-500 italic">{item.source}</div>
-                </div>
-              ))}
+            <h3 className="text-2xl font-bold">Ausrüstung auswählen</h3>
+
+            <div className="flex flex-col md:flex-row gap-4">
+              {/* Kategorie-Auswahl */}
+              <div className="md:w-1/4 border-r pr-2">
+                {equipmentCategories.map((category) => (
+                  <button
+                    key={category}
+                    onClick={() => setSelectedEquipmentCategory(category)}
+                    className={`block w-full text-left px-2 py-1 rounded hover:bg-gray-100 ${
+                      selectedEquipmentCategory === category ? 'bg-gray-200 font-bold' : ''
+                    }`}
+                  >
+                    {category}
+                  </button>
+                ))}
+              </div>
+
+              {/* Item-Liste */}
+              <div className="md:w-2/4 pl-2">
+                {filteredEquipment.map((item) => (
+                  <div
+                    key={item.id}
+                    onClick={() => setSelectedItem(item)}
+                    className="border rounded p-2 mb-2 cursor-pointer hover:bg-gray-50 flex justify-between"
+                  >
+                    <span>{item.name}</span>
+                    <span className="text-sm text-gray-500">{item.cost} gp</span>
+                  </div>
+                ))}
+              </div>
+
+              {/* Item-Details + Anlegen */}
+              <div className="md:w-1/4 border-l pl-2">
+                {selectedItem ? (
+                  <div className="space-y-2">
+                    <h4 className="text-lg font-semibold">{selectedItem.name}</h4>
+                    <p className="text-sm italic text-gray-600">{selectedItem.subCategory}</p>
+                    <p>Gewicht: {selectedItem.weight} lb</p>
+                    <p>Kosten: {selectedItem.cost} gp</p>
+                    <p className="text-xs text-gray-500 italic">Quelle: {selectedItem.source}</p>
+                    <button
+                      onClick={() => handleEquipItem(selectedItem)}
+                      className="mt-2 px-3 py-1 bg-blue-600 text-white rounded"
+                    >
+                      Anlegen
+                    </button>
+                  </div>
+                ) : (
+                  <p className="text-sm text-gray-500 italic">Wähle ein Item aus</p>
+                )}
+              </div>
             </div>
-            <Button onClick={handleContinue}>Weiter</Button>
+
+            {/* Ausgewählte Ausrüstung */}
+            <div className="mt-6">
+              <h4 className="text-xl font-bold mb-2">Angelegte Items</h4>
+              {equippedItems.length === 0 ? (
+                <p className="text-sm text-gray-500 italic">Noch nichts angelegt.</p>
+              ) : (
+                <ul className="list-disc pl-5 text-sm space-y-1">
+                  {equippedItems.map((item) => (
+                    <li key={item.id} className="flex items-center justify-between">
+                      <span>{item.name}</span>
+                      <button
+                        onClick={() =>
+                          setEquippedItems((prev) =>
+                            prev.filter((i) => i.id !== item.id)
+                          )
+                        }
+                        className="ml-2 text-red-600 hover:text-red-800 text-xs font-bold"
+                        aria-label={`Entferne ${item.name}`}
+                        title={`Entferne ${item.name}`}
+                      >
+                        ✖
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+
+            <Button onClick={handleContinue} className="mt-4">Weiter</Button>
           </CardContent>
         </Card>
       </TabsContent>
 
+      <TabsContent value="inventory">
+        <Card>
+          <CardContent className="p-6 space-y-4">
+            <h3 className="text-2xl font-bold">Inventar verwalten</h3>
+
+            <div className="flex flex-col md:flex-row gap-4">
+              {/* Kategorie-Auswahl */}
+              <div className="md:w-1/4 border-r pr-2">
+                {equipmentCategories.map((category) => (
+                  <button
+                    key={category}
+                    onClick={() => setSelectedEquipmentCategory(category)}
+                    className={`block w-full text-left px-2 py-1 rounded hover:bg-gray-100 ${
+                      selectedEquipmentCategory === category ? 'bg-gray-200 font-bold' : ''
+                    }`}
+                  >
+                    {category}
+                  </button>
+                ))}
+              </div>
+
+              {/* Item-Auswahl */}
+              <div className="md:w-2/4 pl-2">
+                {filteredEquipment.map((item) => (
+                  <div
+                    key={item.id}
+                    className="border rounded p-2 mb-2 cursor-pointer hover:bg-gray-50 flex justify-between"
+                    onClick={() => handleAddToInventory(item)}
+                  >
+                    <span>{item.name}</span>
+                    <span className="text-sm text-gray-500">{item.cost} gp</span>
+                  </div>
+                ))}
+              </div>
+
+              {/* Aktuelles Inventar */}
+              <div className="md:w-1/4 border-l pl-2">
+                <h4 className="text-lg font-semibold">Inventar</h4>
+                {inventoryItems.length === 0 ? (
+                  <p className="text-sm text-gray-500 italic">Noch leer.</p>
+                ) : (
+                  <ul className="list-disc pl-4 text-sm">
+                    {inventoryItems.map((item) => (
+                      <li key={item.id}>{item.name}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            </div>
+
+            <Button onClick={handleContinue} className="mt-4">Weiter</Button>
+          </CardContent>
+        </Card>
+      </TabsContent>
+
+      <h4 className="text-xl font-semibold mt-6">Inventar</h4>
+<ul className="list-disc pl-6">
+  {selectedEquipment.map(id => {
+    const item = equipmentList.find(e => e.id === id);
+    return item ? <li key={id}>{item.name} – {item.weight} lb – {item.cost} GP</li> : null;
+  })}
+</ul>
       {/* ... weitere Tabs ... */}
+
+      {/* === DETAILS === */}
+      <TabsContent value="details">
+        <Card>
+          <CardContent className="p-6 space-y-4">
+            <h3 className="text-2xl font-bold">Charakterdetails</h3>
+
+            <div>
+              <label className="block font-semibold mb-1">Name</label>
+              <input
+                type="text"
+                className="w-full border rounded p-2"
+                value={characterName}
+                onChange={(e) => setCharacterName(e.target.value)}
+              />
+            </div>
+
+            <div>
+              <label className="block font-semibold mb-1">Geschlecht</label>
+              <input
+                type="text"
+                className="w-full border rounded p-2"
+                value={characterGender}
+                onChange={(e) => setCharacterGender(e.target.value)}
+              />
+            </div>
+
+            <div>
+              <label className="block font-semibold mb-1">Ausrichtung (Alignment)</label>
+              <select
+                className="w-full border rounded p-2"
+                value={characterAlignment}
+                onChange={(e) => setCharacterAlignment(e.target.value)}
+              >
+                <option value="">Bitte wählen</option>
+                <option value="Lawful Good">Lawful Good</option>
+                <option value="Neutral Good">Neutral Good</option>
+                <option value="Chaotic Good">Chaotic Good</option>
+                <option value="Lawful Neutral">Lawful Neutral</option>
+                <option value="True Neutral">True Neutral</option>
+                <option value="Chaotic Neutral">Chaotic Neutral</option>
+                <option value="Lawful Evil">Lawful Evil</option>
+                <option value="Neutral Evil">Neutral Evil</option>
+                <option value="Chaotic Evil">Chaotic Evil</option>
+              </select>
+            </div>
+
+            <div>
+              <label className="block font-semibold mb-1">Sprachen</label>
+              <div className="grid grid-cols-2 gap-2">
+                {languageList.map((lang) => (
+                  <label key={lang.id} className="cursor-pointer">
+                    <input
+                      type="checkbox"
+                      name={lang.id}
+                      checked={selectedLanguages.includes(lang.id)}
+                      onChange={() => {
+                        setSelectedLanguages((prev) =>
+                          prev.includes(lang.id)
+                            ? prev.filter((id) => id !== lang.id)
+                            : [...prev, lang.id]
+                        );
+                      }}
+                      className="mr-2"
+                    />
+                    {lang.name}
+                  </label>
+                ))}
+              </div>
+            </div>
+
+            <Button onClick={handleContinue} disabled={!characterName || !characterGender || selectedLanguages.length === 0}>
+              Weiter
+            </Button>
+          </CardContent>
+        </Card>
+      </TabsContent>
+
+      <TabsContent value="additional">
+        <Card>
+          <CardContent className="p-6 space-y-4">
+            <h3 className="text-2xl font-bold">Additional Treasure & Quest Items</h3>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <input
+                className="border p-2 rounded"
+                placeholder="Item Name"
+                value={newTreasure.name}
+                onChange={(e) =>
+                  setNewTreasure({ ...newTreasure, name: e.target.value })
+                }
+              />
+              <input
+                className="border p-2 rounded"
+                placeholder="Beschreibung"
+                value={newTreasure.description}
+                onChange={(e) =>
+                  setNewTreasure({ ...newTreasure, description: e.target.value })
+                }
+              />
+              <select
+                className="border p-2 rounded"
+                value={newTreasure.category}
+                onChange={(e) =>
+                  setNewTreasure({ ...newTreasure, category: e.target.value })
+                }
+              >
+                <option value="Coin">Coin</option>
+                <option value="Gem">Gem</option>
+                <option value="Document">Document</option>
+                <option value="Quest Item">Quest Item</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <Button onClick={handleAddTreasure} className="mt-2">Hinzufügen</Button>
+
+            <div className="mt-6">
+              <h4 className="text-lg font-semibold">Deine Items</h4>
+              {treasureItems.length === 0 ? (
+                <p className="text-sm italic text-gray-500">Noch keine Einträge</p>
+              ) : (
+                <ul className="list-disc pl-6">
+                  {treasureItems.map((item) => (
+                    <li key={item.id} className="mt-2">
+                      <strong>{item.name}</strong> ({item.category}) – {item.description}{' '}
+                      <Button onClick={() => handleRemoveTreasure(item.id)} className="ml-2" title="Entfernen">
+                        ❌
+                      </Button>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+
+            <Button onClick={handleContinue} className="mt-4">Weiter</Button>
+          </CardContent>
+        </Card>
+      </TabsContent>
 
       {/* === SUMMARY === */}
       <TabsContent value="summary">

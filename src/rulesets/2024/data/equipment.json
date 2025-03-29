@@ -2,647 +2,456 @@
   {
     "id": "AG001",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Acid (vial)",
-    "weight": 1.0,
-    "cost": 25.0,
-    "cheap": 18.75,
-    "expensive": 37.5,
+    "weight": "1 lb.",
+    "cost": "25.00 GP",
+    "cheap": "18.75 GP",
+    "expensive": "37.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Potion"
-    ]
+    "availableIn": ["Village", "Town", "City", "Potion"]
   },
   {
     "id": "AG002",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Alchemist's Fire",
-    "weight": 1.0,
-    "cost": 50.0,
-    "cheap": 37.5,
-    "expensive": 75.0,
+    "weight": "1 lb.",
+    "cost": "50.00 GP",
+    "cheap": "37.50 GP",
+    "expensive": "75.00 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Potion"
-    ]
+    "availableIn": ["Town", "City", "Potion"]
   },
   {
     "id": "AG003",
     "category": "Adventuring Gear",
     "subCategory": "Ammunition",
     "name": "Arrows (20)",
-    "weight": 1.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
+    "weight": "1 lb.",
+    "cost": "1.00 GP",
+    "cheap": "0.75 GP",
+    "expensive": "1.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Fletcher",
-      "Adventuring"
-    ]
+    "availableIn": ["Village", "Town", "City", "Fletcher", "Adventuring"]
   },
   {
     "id": "AG004",
     "category": "Adventuring Gear",
     "subCategory": "Ammunition",
     "name": "Crossbow, Bolts (20)",
-    "weight": 1.5,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
+    "weight": "1 1/2 lb.",
+    "cost": "1.00 GP",
+    "cheap": "0.75 GP",
+    "expensive": "1.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Fletcher",
-      "Adventuring"
-    ]
+    "availableIn": ["Village", "Town", "City", "Fletcher", "Adventuring"]
   },
   {
     "id": "AG005",
     "category": "Adventuring Gear",
     "subCategory": "Ammunition",
     "name": "Bullets, Firearm (10)",
-    "weight": 2.0,
-    "cost": 3.0,
-    "cheap": 2.25,
-    "expensive": 4.5,
+    "weight": "2 lb.",
+    "cost": "3.00 GP",
+    "cheap": "2.25 GP",
+    "expensive": "4.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Armory"
-    ]
+    "availableIn": ["City", "Armory"]
   },
   {
     "id": "AG006",
     "category": "Adventuring Gear",
     "subCategory": "Ammunition",
     "name": "Bullets, Sling (20)",
-    "weight": 1.5,
-    "cost": 0.04,
-    "cheap": 0.03,
-    "expensive": 0.06,
+    "weight": "1 1/2 lb.",
+    "cost": "0.04 GP",
+    "cheap": "0.03 GP",
+    "expensive": "0.06 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Adventuring"
-    ]
+    "availableIn": ["Village", "Town", "City", "Adventuring"]
   },
   {
     "id": "AG007",
     "category": "Adventuring Gear",
     "subCategory": "Ammunition",
     "name": "Blowgun, Needles (50)",
-    "weight": 1.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
+    "weight": "1 lb.",
+    "cost": "1.00 GP",
+    "cheap": "0.75 GP",
+    "expensive": "1.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Adventuring"
-    ]
+    "availableIn": ["Village", "Town", "City", "Adventuring"]
   },
   {
     "id": "AG008",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Antitoxin (vial)",
-    "weight": 0,
-    "cost": 50.0,
-    "cheap": 37.5,
-    "expensive": 75.0,
+    "weight": "",
+    "cost": "50.00 GP",
+    "cheap": "37.50 GP",
+    "expensive": "75.00 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Potion"
-    ]
+    "availableIn": ["Village", "Town", "City", "Potion"]
   },
   {
     "id": "AG009",
     "category": "Adventuring Gear",
     "subCategory": "Arcane Focuses",
     "name": "Crystal",
-    "weight": 1.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
+    "weight": "1 lb.",
+    "cost": "10.00 GP",
+    "cheap": "7.50 GP",
+    "expensive": "15.00 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Jeweler",
-      "Arcane"
-    ]
+    "availableIn": ["Village", "Town", "City", "Jeweler", "Arcane"]
   },
   {
     "id": "AG010",
     "category": "Adventuring Gear",
     "subCategory": "Arcane Focuses",
     "name": "Orb",
-    "weight": 3.0,
-    "cost": 20.0,
-    "cheap": 15.0,
-    "expensive": 30.0,
+    "weight": "3 lb.",
+    "cost": "20.00 GP",
+    "cheap": "15.00 GP",
+    "expensive": "30.00 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Jeweler",
-      "Arcane"
-    ]
+    "availableIn": ["City", "Jeweler", "Arcane"]
   },
   {
     "id": "AG011",
     "category": "Adventuring Gear",
     "subCategory": "Arcane Focuses",
     "name": "Rod",
-    "weight": 2.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
+    "weight": "2 lb.",
+    "cost": "10.00 GP",
+    "cheap": "7.50 GP",
+    "expensive": "15.00 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Arcane"
-    ]
+    "availableIn": ["Town", "City", "Arcane"]
   },
   {
     "id": "AG012",
     "category": "Adventuring Gear",
     "subCategory": "Arcane Focuses",
     "name": "Staff (also a Quarterstaff)",
-    "weight": 4.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
+    "weight": "4 lb.",
+    "cost": "5.00 GP",
+    "cheap": "3.75 GP",
+    "expensive": "7.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Arcane"
-    ]
+    "availableIn": ["Village", "Town", "City", "Arcane"]
   },
   {
     "id": "AG013",
     "category": "Adventuring Gear",
     "subCategory": "Arcane Focuses",
     "name": "Wand",
-    "weight": 1.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
+    "weight": "1 lb.",
+    "cost": "10.00 GP",
+    "cheap": "7.50 GP",
+    "expensive": "15.00 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Arcane"
-    ]
+    "availableIn": ["Village", "Town", "City", "Arcane"]
   },
   {
     "id": "AG014",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Backpack",
-    "weight": 5.0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
+    "weight": "5 lb.",
+    "cost": "2.00 GP",
+    "cheap": "1.50 GP",
+    "expensive": "3.00 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Adventuring"
-    ]
+    "availableIn": ["Village", "Town", "City", "Adventuring"]
   },
   {
     "id": "AG015",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Ball Bearings",
-    "weight": 2.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
+    "weight": "2 lb.",
+    "cost": "1.00 GP",
+    "cheap": "0.75 GP",
+    "expensive": "1.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
+    "availableIn": ["Village", "Town", "City", "Blacksmith"]
   },
   {
     "id": "AG016",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Barrel",
-    "weight": 70.0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
+    "weight": "70 lb.",
+    "cost": "2.00 GP",
+    "cheap": "1.50 GP",
+    "expensive": "3.00 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "General Store"
-    ]
+    "availableIn": ["Village", "Town", "City", "General Store"]
   },
   {
     "id": "AG017",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Basket",
-    "weight": 2.0,
-    "cost": 0.4,
-    "cheap": 0.30000000000000004,
-    "expensive": 0.6000000000000001,
+    "weight": "2 lb.",
+    "cost": "0.40 GP",
+    "cheap": "0.30 GP",
+    "expensive": "0.60 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Tailor"
-    ]
+    "availableIn": ["Village", "Town", "City", "Tailor"]
   },
   {
     "id": "AG018",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Bedroll",
-    "weight": 7.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
+    "weight": "7 lb.",
+    "cost": "1.00 GP",
+    "cheap": "0.75 GP",
+    "expensive": "1.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Adventuring"
-    ]
+    "availableIn": ["Village", "Town", "City", "Adventuring"]
   },
   {
     "id": "AG019",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Bell",
-    "weight": 0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
+    "weight": "",
+    "cost": "1.00 GP",
+    "cheap": "0.75 GP",
+    "expensive": "1.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith",
-      "Temple"
-    ]
+    "availableIn": ["Town", "City", "Blacksmith", "Temple"]
   },
   {
     "id": "AG020",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Blanket",
-    "weight": 3.0,
-    "cost": 0.5,
-    "cheap": 0.375,
-    "expensive": 0.75,
+    "weight": "3 lb.",
+    "cost": "0.50 GP",
+    "cheap": "0.38 GP",
+    "expensive": "0.75 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple",
-      "General Store",
-      "Adventuring"
-    ]
+    "availableIn": ["Village", "Town", "City", "Temple", "General Store", "Adventuring"]
   },
   {
     "id": "AG021",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Block and Tackle",
-    "weight": 5.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
+    "weight": "5 lb.",
+    "cost": "1.00 GP",
+    "cheap": "0.75 GP",
+    "expensive": "1.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith",
-      "Adventuring"
-    ]
+    "availableIn": ["Town", "City", "Blacksmith", "Adventuring"]
   },
   {
     "id": "AG022",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Book",
-    "weight": 5.0,
-    "cost": 25.0,
-    "cheap": 18.75,
-    "expensive": 37.5,
+    "weight": "5 lb.",
+    "cost": "25.00 GP",
+    "cheap": "18.75 GP",
+    "expensive": "37.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple",
-      "Arcane"
-    ]
+    "availableIn": ["Village", "Town", "City", "Temple", "Arcane"]
   },
   {
     "id": "AG023",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Bottle, Glass",
-    "weight": 2.0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
+    "weight": "2 lb.",
+    "cost": "2.00 GP",
+    "cheap": "1.50 GP",
+    "expensive": "3.00 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "General Store",
-      "Adventuring",
-      "Arcane"
-    ]
+    "availableIn": ["Village", "Town", "City", "General Store", "Adventuring", "Potion"]
   },
   {
     "id": "AG024",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Bucket",
-    "weight": 2.0,
-    "cost": 0.05,
-    "cheap": 0.037500000000000006,
-    "expensive": 0.07500000000000001,
+    "weight": "2 lb.",
+    "cost": "0.05 GP",
+    "cheap": "0.04 GP",
+    "expensive": "0.08 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "General Store"
-    ]
+    "availableIn": ["Village", "Town", "City", "General Store"]
   },
   {
     "id": "AG025",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Burglar's Pack",
-    "weight": 42.0,
-    "cost": 16.0,
-    "cheap": 12.0,
-    "expensive": 24.0,
+    "weight": "42 lb.",
+    "cost": "16.00 GP",
+    "cheap": "12.00 GP",
+    "expensive": "24.00 GP",
     "source": "PHB 2024",
     "availableIn": []
   },
   {
     "id": "AG026",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Caltrops",
-    "weight": 2.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
+    "weight": "2 lb.",
+    "cost": "1.00 GP",
+    "cheap": "0.75 GP",
+    "expensive": "1.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Thieves"
-    ]
+    "availableIn": ["Town", "City", "Thieves"]
   },
   {
     "id": "AG027",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Candle",
-    "weight": 0,
-    "cost": 0.01,
-    "cheap": 0.0075,
-    "expensive": 0.015,
+    "weight": "",
+    "cost": "0.01 GP",
+    "cheap": "0.01 GP",
+    "expensive": "0.02 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple",
-      "General Store",
-      "Adventuring",
-      "Arcane"
-    ]
+    "availableIn": ["Village", "Town", "City", "Temple", "General Store", "Adventuring", "Arcane"]
   },
   {
     "id": "AG028",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Case, Crossbow Bolt",
-    "weight": 1.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
+    "weight": "1 lb.",
+    "cost": "1.00 GP",
+    "cheap": "0.75 GP",
+    "expensive": "1.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Fletcher",
-      "Adventuring"
-    ]
+    "availableIn": ["Village", "Town", "City", "Fletcher", "Adventuring"]
   },
   {
     "id": "AG029",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Case, Map or Scroll",
-    "weight": 1.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
+    "weight": "1 lb.",
+    "cost": "1.00 GP",
+    "cheap": "0.75 GP",
+    "expensive": "1.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple",
-      "Adventuring",
-      "Arcane"
-    ]
+    "availableIn": ["Village", "Town", "City", "Temple", "Adventuring", "Arcane"]
   },
   {
     "id": "AG030",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Chain (10 feet)",
-    "weight": 10.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
+    "weight": "10 lb.",
+    "cost": "5.00 GP",
+    "cheap": "3.75 GP",
+    "expensive": "7.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith",
-      "Adventuring"
-    ]
+    "availableIn": ["Town", "City", "Blacksmith", "Adventuring"]
   },
   {
     "id": "AG031",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Chest",
-    "weight": 25.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
+    "weight": "25 lb.",
+    "cost": "5.00 GP",
+    "cheap": "3.75 GP",
+    "expensive": "7.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "General Store",
-      "Adventuring"
-    ]
+    "availableIn": ["Town", "City", "General Store", "Adventuring"]
   },
   {
     "id": "AG032",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Climber's Kit",
-    "weight": 12.0,
-    "cost": 25.0,
-    "cheap": 18.75,
-    "expensive": 37.5,
+    "weight": "12 lb.",
+    "cost": "25.00 GP",
+    "cheap": "18.75 GP",
+    "expensive": "37.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Adventuring"
-    ]
+    "availableIn": ["Town", "City", "Adventuring"]
   },
   {
     "id": "AG033",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Clothes, Fine",
-    "weight": 6.0,
-    "cost": 15.0,
-    "cheap": 11.25,
-    "expensive": 22.5,
+    "weight": "6 lb.",
+    "cost": "15.00 GP",
+    "cheap": "11.25 GP",
+    "expensive": "22.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "General Store",
-      "Tailor"
-    ]
+    "availableIn": ["Town", "City", "General Store", "Tailor"]
   },
   {
     "id": "AG034",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Clothes, Traveler's",
-    "weight": 4.0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
+    "weight": "4 lb.",
+    "cost": "2.00 GP",
+    "cheap": "1.50 GP",
+    "expensive": "3.00 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Adventuring",
-      "Tailor"
-    ]
+    "availableIn": ["Village", "Town", "City", "Adventuring", "Tailor"]
   },
   {
     "id": "AG035",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Component Pouch",
-    "weight": 2.0,
-    "cost": 25.0,
-    "cheap": 18.75,
-    "expensive": 37.5,
+    "weight": "2 lb.",
+    "cost": "25.00 GP",
+    "cheap": "18.75 GP",
+    "expensive": "37.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Tailor",
-      "Potion",
-      "Arcane"
-    ]
+    "availableIn": ["Village", "Town", "City", "Tailor", "Potion", "Arcane"]
   },
   {
     "id": "AG036",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Costume",
-    "weight": 4.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
+    "weight": "4 lb.",
+    "cost": "5.00 GP",
+    "cheap": "3.75 GP",
+    "expensive": "7.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Tailor",
-      "Thieves"
-    ]
+    "availableIn": ["City", "Tailor", "Inn"]
   },
   {
     "id": "AG037",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Crowbar",
-    "weight": 5.0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
+    "weight": "5 lb.",
+    "cost": "2.00 GP",
+    "cheap": "1.50 GP",
+    "expensive": "3.00 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith",
-      "Adventuring",
-      "Thieves"
-    ]
+    "availableIn": ["Village", "Town", "City", "Blacksmith", "Adventuring", "Thieves"]
   },
   {
     "id": "AG038",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Diplomat's Pack",
-    "weight": 39.0,
-    "cost": 39.0,
-    "cheap": 29.25,
-    "expensive": 58.5,
+    "weight": "39 lb.",
+    "cost": "39.00 GP",
+    "cheap": "29.25 GP",
+    "expensive": "58.50 GP",
     "source": "PHB 2024",
     "availableIn": []
   },
@@ -651,3307 +460,1511 @@
     "category": "Adventuring Gear",
     "subCategory": "Drudic Focus",
     "name": "Sprig of Mistletoe",
-    "weight": 0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
+    "weight": "",
+    "cost": "1.00 GP",
+    "cheap": "0.75 GP",
+    "expensive": "1.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Arcane"
-    ]
+    "availableIn": ["Village", "Town", "City", "Arcane"]
   },
   {
     "id": "AG040",
     "category": "Adventuring Gear",
     "subCategory": "Drudic Focus",
     "name": "Wooden Staff (also a Quarterstaff)",
-    "weight": 4.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
+    "weight": "4 lb.",
+    "cost": "5.00 GP",
+    "cheap": "3.75 GP",
+    "expensive": "7.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Arcane"
-    ]
+    "availableIn": ["Village", "Town", "City", "Arcane"]
   },
   {
     "id": "AG041",
     "category": "Adventuring Gear",
     "subCategory": "Drudic Focus",
     "name": "Yew Wand",
-    "weight": 1.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
+    "weight": "1 lb.",
+    "cost": "10.00 GP",
+    "cheap": "7.50 GP",
+    "expensive": "15.00 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Arcane"
-    ]
+    "availableIn": ["Village", "Town", "City", "Arcane"]
   },
   {
     "id": "AG042",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Dungeoneer's Pack",
-    "weight": 55.0,
-    "cost": 12.0,
-    "cheap": 9.0,
-    "expensive": 18.0,
+    "weight": "55 lb.",
+    "cost": "12.00 GP",
+    "cheap": "9.00 GP",
+    "expensive": "18.00 GP",
     "source": "PHB 2024",
     "availableIn": []
   },
   {
     "id": "AG043",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Entertainer's Pack",
-    "weight": 58.5,
-    "cost": 40.0,
-    "cheap": 30.0,
-    "expensive": 60.0,
+    "weight": "58 1/2 lb.",
+    "cost": "40.00 GP",
+    "cheap": "30.00 GP",
+    "expensive": "60.00 GP",
     "source": "PHB 2024",
     "availableIn": []
   },
   {
     "id": "AG044",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Explorer's Pack",
-    "weight": 55.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
+    "weight": "55 lb.",
+    "cost": "10.00 GP",
+    "cheap": "7.50 GP",
+    "expensive": "15.00 GP",
     "source": "PHB 2024",
     "availableIn": []
   },
   {
     "id": "AG045",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Flask",
-    "weight": 1.0,
-    "cost": 0.02,
-    "cheap": 0.015,
-    "expensive": 0.03,
+    "weight": "1 lb.",
+    "cost": "0.02 GP",
+    "cheap": "0.02 GP",
+    "expensive": "0.03 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple",
-      "General Store",
-      "Adventuring",
-      "Potion"
-    ]
+    "availableIn": ["Village", "Town", "City", "Temple", "General Store", "Adventuring", "Potion"]
   },
   {
     "id": "AG046",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Grappling Hook",
-    "weight": 4.0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
+    "weight": "4 lb.",
+    "cost": "2.00 GP",
+    "cheap": "1.50 GP",
+    "expensive": "3.00 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith",
-      "Adventuring",
-      "Thieves"
-    ]
+    "availableIn": ["Town", "City", "Blacksmith", "Adventuring", "Thieves"]
   },
   {
     "id": "AG047",
     "category": "Adventuring Gear",
-    "subCategory": "-",
+    "subCategory": "",
     "name": "Healer's Kit",
-    "weight": 3.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
+    "weight": "3 lb.",
+    "cost": "5.00 GP",
+    "cheap": "3.75 GP",
+    "expensive": "7.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Temple",
-      "Adventuring"
-    ]
+    "availableIn": ["City", "Temple", "Adventuring"]
   },
   {
     "id": "AG048",
     "category": "Adventuring Gear",
     "subCategory": "Holy Symbol",
     "name": "Amulet (worn or held)",
-    "weight": 1.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
+    "weight": "1 lb.",
+    "cost": "5.00 GP",
+    "cheap": "3.75 GP",
+    "expensive": "7.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple",
-      "Jeweler"
-    ]
+    "availableIn": ["Village", "Town", "City", "Temple", "Jeweler"]
   },
   {
     "id": "AG049",
     "category": "Adventuring Gear",
     "subCategory": "Holy Symbol",
     "name": "Emblem (borne on fabric or a Shield)",
-    "weight": 0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
+    "weight": "",
+    "cost": "5.00 GP",
+    "cheap": "3.75 GP",
+    "expensive": "7.50 GP",
     "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple"
-    ]
+    "availableIn": ["Village", "Town", "City", "Temple"]
   },
   {
     "id": "AG050",
     "category": "Adventuring Gear",
     "subCategory": "Holy Symbol",
     "name": "Reliquary (held)",
-    "weight": 2.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple"
-    ]
-  },
-  {
-    "id": "AG051",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Holy Water",
-    "weight": 1.0,
-    "cost": 25.0,
-    "cheap": 18.75,
-    "expensive": 37.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple"
-    ]
-  },
-  {
-    "id": "AG052",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Hunting Trap",
-    "weight": 25.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG053",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Ink",
-    "weight": 0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple",
-      "General Store",
-      "Adventuring",
-      "Arcane",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG054",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Ink Pen",
-    "weight": 0,
-    "cost": 0.02,
-    "cheap": 0.015,
-    "expensive": 0.03,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Temple",
-      "General Store",
-      "Adventuring",
-      "Arcane",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG055",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Jug",
-    "weight": 4.0,
-    "cost": 0.02,
-    "cheap": 0.015,
-    "expensive": 0.03,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "General Store",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG056",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Ladder (10 feet)",
-    "weight": 25.0,
-    "cost": 0.1,
-    "cheap": 0.07500000000000001,
-    "expensive": 0.15000000000000002,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "General Store",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG057",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Lamp",
-    "weight": 1.0,
-    "cost": 0.5,
-    "cheap": 0.375,
-    "expensive": 0.75,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith",
-      "Temple",
-      "General Store"
-    ]
-  },
-  {
-    "id": "AG058",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Lantern, Bullseye",
-    "weight": 2.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith",
-      "Adventuring",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG059",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Lantern, Hooded",
-    "weight": 2.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith",
-      "Temple",
-      "General Store",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG060",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Lock",
-    "weight": 1.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Blacksmith",
-      "General Store",
-      "Adventuring",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG061",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Magnifying Glass",
-    "weight": 0,
-    "cost": 100.0,
-    "cheap": 75.0,
-    "expensive": 150.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Jeweler"
-    ]
-  },
-  {
-    "id": "AG062",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Manacles",
-    "weight": 6.0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Blacksmith",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG063",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Map",
-    "weight": 0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
-    "source": "PHB 2024",
-    "availableIn": []
-  },
-  {
-    "id": "AG064",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Mirror",
-    "weight": 0.5,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "General Store",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG065",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Net",
-    "weight": 3.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "General Store"
-    ]
-  },
-  {
-    "id": "AG066",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Oil",
-    "weight": 1.0,
-    "cost": 0.1,
-    "cheap": 0.07500000000000001,
-    "expensive": 0.15000000000000002,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple",
-      "Potion",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG067",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Paper",
-    "weight": 0,
-    "cost": 0.2,
-    "cheap": 0.15000000000000002,
-    "expensive": 0.30000000000000004,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Temple",
-      "General Store",
-      "Adventuring",
-      "Arcane"
-    ]
-  },
-  {
-    "id": "AG068",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Parchment",
-    "weight": 0,
-    "cost": 0.1,
-    "cheap": 0.07500000000000001,
-    "expensive": 0.15000000000000002,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple",
-      "General Store",
-      "Adventuring",
-      "Arcane"
-    ]
-  },
-  {
-    "id": "AG069",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Perfume",
-    "weight": 0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Temple",
-      "Potion"
-    ]
-  },
-  {
-    "id": "AG070",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Poison, Basic",
-    "weight": 0,
-    "cost": 100.0,
-    "cheap": 75.0,
-    "expensive": 150.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Potion",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG071",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Pole (10 feet)",
-    "weight": 7.0,
-    "cost": 0.05,
-    "cheap": 0.037500000000000006,
-    "expensive": 0.07500000000000001,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG072",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Pot, Iron",
-    "weight": 10.0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith",
-      "General Store",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG073",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Potion of Healing",
-    "weight": 0.5,
-    "cost": 50.0,
-    "cheap": 37.5,
-    "expensive": 75.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Temple",
-      "Potion"
-    ]
-  },
-  {
-    "id": "AG074",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Pouch",
-    "weight": 1.0,
-    "cost": 0.5,
-    "cheap": 0.375,
-    "expensive": 0.75,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "General Store",
-      "Adventuring",
-      "Tailor",
-      "Potion",
-      "Arcane",
-      "Armory"
-    ]
-  },
-  {
-    "id": "AG075",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Priest's Pack",
-    "weight": 29.0,
-    "cost": 33.0,
-    "cheap": 24.75,
-    "expensive": 49.5,
-    "source": "PHB 2024",
-    "availableIn": []
-  },
-  {
-    "id": "AG076",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Quiver",
-    "weight": 1.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Fletcher",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG077",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Ram, Portable",
-    "weight": 35.0,
-    "cost": 4.0,
-    "cheap": 3.0,
-    "expensive": 6.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG078",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Rations",
-    "weight": 2.0,
-    "cost": 0.5,
-    "cheap": 0.375,
-    "expensive": 0.75,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple",
-      "Adventuring",
-      "Tailor",
-      "Arcane"
-    ]
-  },
-  {
-    "id": "AG079",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Robe",
-    "weight": 4.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG080",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Rope (50 feet)",
-    "weight": 5.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "General Store",
-      "Adventuring",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG081",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Sack",
-    "weight": 0.5,
-    "cost": 0.01,
-    "cheap": 0.0075,
-    "expensive": 0.015,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "General Store",
-      "Adventuring",
-      "Tailor"
-    ]
-  },
-  {
-    "id": "AG082",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Scholar's Pack",
-    "weight": 22.0,
-    "cost": 40.0,
-    "cheap": 30.0,
-    "expensive": 60.0,
-    "source": "PHB 2024",
-    "availableIn": []
-  },
-  {
-    "id": "AG083",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Shovel",
-    "weight": 5.0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "General Store",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG084",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Signal Whistle",
-    "weight": 0,
-    "cost": 0.05,
-    "cheap": 0.037500000000000006,
-    "expensive": 0.07500000000000001,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG085",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Spell Scroll (Cantrip)",
-    "weight": 0,
-    "cost": 30.0,
-    "cheap": 22.5,
-    "expensive": 45.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Arcane"
-    ]
-  },
-  {
-    "id": "AG086",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Spell Scroll (Level 1)",
-    "weight": 0,
-    "cost": 50.0,
-    "cheap": 37.5,
-    "expensive": 75.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Arcane"
-    ]
-  },
-  {
-    "id": "AG087",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Spikes, Iron",
-    "weight": 5.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG088",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Spyglass",
-    "weight": 1.0,
-    "cost": 1000.0,
-    "cheap": 750.0,
-    "expensive": 1500.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG089",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "String",
-    "weight": 0,
-    "cost": 0.1,
-    "cheap": 0.07500000000000001,
-    "expensive": 0.15000000000000002,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "General Store"
-    ]
-  },
-  {
-    "id": "AG090",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Tent",
-    "weight": 20.0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Adventuring",
-      "Tailor"
-    ]
-  },
-  {
-    "id": "AG091",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Tinderbox",
-    "weight": 1.0,
-    "cost": 0.5,
-    "cheap": 0.375,
-    "expensive": 0.75,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG092",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Torch",
-    "weight": 1.0,
-    "cost": 0.01,
-    "cheap": 0.0075,
-    "expensive": 0.015,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG093",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Vial",
-    "weight": 0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple",
-      "General Store",
-      "Adventuring",
-      "Potion",
-      "Arcane",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG094",
-    "category": "Adventuring Gear",
-    "subCategory": "-",
-    "name": "Waterskin",
-    "weight": 5.0,
-    "cost": 0.2,
-    "cheap": 0.15000000000000002,
-    "expensive": 0.30000000000000004,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Leatherworker",
-      "Temple",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG095",
-    "category": "Armor",
-    "subCategory": "Light Armor",
-    "name": "Padded Armor",
-    "weight": 8.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Adventuring",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG096",
-    "category": "Armor",
-    "subCategory": "Light Armor",
-    "name": "Leather Armor",
-    "weight": 10.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Leatherworker",
-      "Adventuring",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG097",
-    "category": "Armor",
-    "subCategory": "Light Armor",
-    "name": "Studded Leather Armor",
-    "weight": 13.0,
-    "cost": 45.0,
-    "cheap": 33.75,
-    "expensive": 67.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Leatherworker",
-      "Adventuring",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG098",
-    "category": "Armor",
-    "subCategory": "Medium Armor",
-    "name": "Hide Armor",
-    "weight": 12.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Leatherworker",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG099",
-    "category": "Armor",
-    "subCategory": "Medium Armor",
-    "name": "Chain Shirt",
-    "weight": 20.0,
-    "cost": 50.0,
-    "cheap": 37.5,
-    "expensive": 75.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG100",
-    "category": "Armor",
-    "subCategory": "Medium Armor",
-    "name": "Scale Mail",
-    "weight": 45.0,
-    "cost": 50.0,
-    "cheap": 37.5,
-    "expensive": 75.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG101",
-    "category": "Armor",
-    "subCategory": "Medium Armor",
-    "name": "Breastplate",
-    "weight": 20.0,
-    "cost": 400.0,
-    "cheap": 300.0,
-    "expensive": 600.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG102",
-    "category": "Armor",
-    "subCategory": "Medium Armor",
-    "name": "Half Plate Armor",
-    "weight": 40.0,
-    "cost": 750.0,
-    "cheap": 562.5,
-    "expensive": 1125.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG103",
-    "category": "Armor",
-    "subCategory": "Heavy Armor",
-    "name": "Ring Mail",
-    "weight": 40.0,
-    "cost": 30.0,
-    "cheap": 22.5,
-    "expensive": 45.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG104",
-    "category": "Armor",
-    "subCategory": "Heavy Armor",
-    "name": "Chain Mail",
-    "weight": 55.0,
-    "cost": 75.0,
-    "cheap": 56.25,
-    "expensive": 112.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG105",
-    "category": "Armor",
-    "subCategory": "Heavy Armor",
-    "name": "Splint Armor",
-    "weight": 60.0,
-    "cost": 200.0,
-    "cheap": 150.0,
-    "expensive": 300.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG106",
-    "category": "Armor",
-    "subCategory": "Heavy Armor",
-    "name": "Plate Armor",
-    "weight": 65.0,
-    "cost": 1500.0,
-    "cheap": 1125.0,
-    "expensive": 2250.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG107",
-    "category": "Armor",
-    "subCategory": "Shield",
-    "name": "Shield",
-    "weight": 6.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Leatherworker"
-    ]
-  },
-  {
-    "id": "AG108",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Drink",
-    "name": "Ale (mug)",
-    "weight": 0,
-    "cost": 0.04,
-    "cheap": 0.03,
-    "expensive": 0.06,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG109",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Food",
-    "name": "Bread (loaf)",
-    "weight": 0,
-    "cost": 0.02,
-    "cheap": 0.015,
-    "expensive": 0.03,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG110",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Food",
-    "name": "Cheese (wedge)",
-    "weight": 0,
-    "cost": 0.1,
-    "cheap": 0.07500000000000001,
-    "expensive": 0.15000000000000002,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG111",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Lodging",
-    "name": "Inn Stay, Squalid",
-    "weight": 0,
-    "cost": 0.07,
-    "cheap": 0.052500000000000005,
-    "expensive": 0.10500000000000001,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG112",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Lodging",
-    "name": "Inn Stay, Poor",
-    "weight": 0,
-    "cost": 0.1,
-    "cheap": 0.07500000000000001,
-    "expensive": 0.15000000000000002,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG113",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Lodging",
-    "name": "Inn Stay, Modest",
-    "weight": 0,
-    "cost": 0.5,
-    "cheap": 0.375,
-    "expensive": 0.75,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG114",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Lodging",
-    "name": "Inn Stay, Comfortable",
-    "weight": 0,
-    "cost": 0.8,
-    "cheap": 0.6000000000000001,
-    "expensive": 1.2000000000000002,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG115",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Lodging",
-    "name": "Inn Stay, Wealthy",
-    "weight": 0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG116",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Lodging",
-    "name": "Inn Stay, Aristocratic",
-    "weight": 0,
-    "cost": 4.0,
-    "cheap": 3.0,
-    "expensive": 6.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG117",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Food",
-    "name": "Meal, Squalid",
-    "weight": 0,
-    "cost": 0.01,
-    "cheap": 0.0075,
-    "expensive": 0.015,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG118",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Food",
-    "name": "Meal, Poor",
-    "weight": 0,
-    "cost": 0.02,
-    "cheap": 0.015,
-    "expensive": 0.03,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG119",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Food",
-    "name": "Meal, Modest",
-    "weight": 0,
-    "cost": 0.1,
-    "cheap": 0.07500000000000001,
-    "expensive": 0.15000000000000002,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG120",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Food",
-    "name": "Meal, Comfortable",
-    "weight": 0,
-    "cost": 0.2,
-    "cheap": 0.15000000000000002,
-    "expensive": 0.30000000000000004,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG121",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Food",
-    "name": "Meal, Wealthy",
-    "weight": 0,
-    "cost": 0.3,
-    "cheap": 0.22499999999999998,
-    "expensive": 0.44999999999999996,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG122",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Food",
-    "name": "Meal, Aristocratic",
-    "weight": 0,
-    "cost": 0.6,
-    "cheap": 0.44999999999999996,
-    "expensive": 0.8999999999999999,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG123",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Drink",
-    "name": "Wine, Common (bottle)",
-    "weight": 0,
-    "cost": 0.2,
-    "cheap": 0.15000000000000002,
-    "expensive": 0.30000000000000004,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG124",
-    "category": "Food, Drink, Lodging",
-    "subCategory": "Drink",
-    "name": "Wine, Fine (bottle)",
-    "weight": 0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Inn"
-    ]
-  },
-  {
-    "id": "AG125",
-    "category": "Services",
-    "subCategory": "Travel",
-    "name": "Coach Ride, Between Towns (per mile)",
-    "weight": 0,
-    "cost": 0.03,
-    "cheap": 0.0225,
-    "expensive": 0.045,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG126",
-    "category": "Services",
-    "subCategory": "Travel",
-    "name": "Coach Ride, Within City (per mile)",
-    "weight": 0,
-    "cost": 0.01,
-    "cheap": 0.0075,
-    "expensive": 0.015,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City"
-    ]
-  },
-  {
-    "id": "AG127",
-    "category": "Services",
-    "subCategory": "Travel",
-    "name": "Road/Gate, Toll",
-    "weight": 0,
-    "cost": 0.01,
-    "cheap": 0.0075,
-    "expensive": 0.015,
-    "source": "PHB 2024",
-    "availableIn": []
-  },
-  {
-    "id": "AG128",
-    "category": "Services",
-    "subCategory": "Travel",
-    "name": "Ship's Passage (per mile)",
-    "weight": 0,
-    "cost": 0.1,
-    "cheap": 0.07500000000000001,
-    "expensive": 0.15000000000000002,
-    "source": "PHB 2024",
-    "availableIn": []
-  },
-  {
-    "id": "AG129",
-    "category": "Services",
-    "subCategory": "Hirelings",
-    "name": "Hirelings, Skilled (per day)",
-    "weight": 0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG130",
-    "category": "Services",
-    "subCategory": "Hirelings",
-    "name": "Hirelings, Unskilled (per day)",
-    "weight": 0,
-    "cost": 0.2,
-    "cheap": 0.15000000000000002,
-    "expensive": 0.30000000000000004,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG131",
-    "category": "Services",
-    "subCategory": "Hirelings",
-    "name": "Hirelings, Messenger (per mile)",
-    "weight": 0,
-    "cost": 0.02,
-    "cheap": 0.015,
-    "expensive": 0.03,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG132",
-    "category": "Services",
-    "subCategory": "Spellcasting",
-    "name": "Cantrip",
-    "weight": 0,
-    "cost": 30.0,
-    "cheap": 22.5,
-    "expensive": 45.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG133",
-    "category": "Services",
-    "subCategory": "Spellcasting",
-    "name": "Level 1",
-    "weight": 0,
-    "cost": 50.0,
-    "cheap": 37.5,
-    "expensive": 75.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG134",
-    "category": "Services",
-    "subCategory": "Spellcasting",
-    "name": "Level 2",
-    "weight": 0,
-    "cost": 200.0,
-    "cheap": 150.0,
-    "expensive": 300.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG135",
-    "category": "Services",
-    "subCategory": "Spellcasting",
-    "name": "Level 3",
-    "weight": 0,
-    "cost": 300.0,
-    "cheap": 225.0,
-    "expensive": 450.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG136",
-    "category": "Services",
-    "subCategory": "Spellcasting",
-    "name": "Level 4-5",
-    "weight": 0,
-    "cost": 2000.0,
-    "cheap": 1500.0,
-    "expensive": 3000.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG137",
-    "category": "Services",
-    "subCategory": "Spellcasting",
-    "name": "Level 6-8",
-    "weight": 0,
-    "cost": 20000.0,
-    "cheap": 15000.0,
-    "expensive": 30000.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City"
-    ]
-  },
-  {
-    "id": "AG138",
-    "category": "Services",
-    "subCategory": "Spellcasting",
-    "name": "Level 9",
-    "weight": 0,
-    "cost": 100000.0,
-    "cheap": 75000.0,
-    "expensive": 150000.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City"
-    ]
-  },
-  {
-    "id": "AG139",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Alchemist's Supplies",
-    "weight": 8.0,
-    "cost": 50.0,
-    "cheap": 37.5,
-    "expensive": 75.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Potion",
-      "Arcane"
-    ]
-  },
-  {
-    "id": "AG140",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Brewer's Supplies",
-    "weight": 9.0,
-    "cost": 20.0,
-    "cheap": 15.0,
-    "expensive": 30.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Potion"
-    ]
-  },
-  {
-    "id": "AG141",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Calligrapher's Supplies",
-    "weight": 5.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Temple",
-      "Arcane"
-    ]
-  },
-  {
-    "id": "AG142",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Carpenter's Tools",
-    "weight": 6.0,
-    "cost": 8.0,
-    "cheap": 6.0,
-    "expensive": 12.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith",
-      "General Store"
-    ]
-  },
-  {
-    "id": "AG143",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Cartographer's Tools",
-    "weight": 6.0,
-    "cost": 15.0,
-    "cheap": 11.25,
-    "expensive": 22.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG144",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Cobbler's Tools",
-    "weight": 5.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Leatherworker",
-      "General Store"
-    ]
-  },
-  {
-    "id": "AG145",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Cook's Utensils",
-    "weight": 8.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "General Store",
-      "Potion"
-    ]
-  },
-  {
-    "id": "AG146",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Glassblower's Tools",
-    "weight": 5.0,
-    "cost": 30.0,
-    "cheap": 22.5,
-    "expensive": 45.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "General Store"
-    ]
-  },
-  {
-    "id": "AG147",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Jeweler's Tools",
-    "weight": 2.0,
-    "cost": 25.0,
-    "cheap": 18.75,
-    "expensive": 37.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Adventuring",
-      "Jeweler"
-    ]
-  },
-  {
-    "id": "AG148",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Leatherworker's Tools",
-    "weight": 5.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Leatherworker",
-      "General Store"
-    ]
-  },
-  {
-    "id": "AG149",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Mason's Tools",
-    "weight": 8.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith",
-      "General Store"
-    ]
-  },
-  {
-    "id": "AG150",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Painter's Supplies",
-    "weight": 5.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "General Store"
-    ]
-  },
-  {
-    "id": "AG151",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Potter's Tools",
-    "weight": 3.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "General Store"
-    ]
-  },
-  {
-    "id": "AG152",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Smith's Tools",
-    "weight": 8.0,
-    "cost": 20.0,
-    "cheap": 15.0,
-    "expensive": 30.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith",
-      "General Store"
-    ]
-  },
-  {
-    "id": "AG153",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Tinker's Tools",
-    "weight": 10.0,
-    "cost": 50.0,
-    "cheap": 37.5,
-    "expensive": 75.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Blacksmith",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG154",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Weaver's Tools",
-    "weight": 5.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "General Store",
-      "Tailor"
-    ]
-  },
-  {
-    "id": "AG155",
-    "category": "Tools",
-    "subCategory": "Artisan's Tools",
-    "name": "Woodcarver's Tools",
-    "weight": 5.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "General Store"
-    ]
-  },
-  {
-    "id": "AG156",
-    "category": "Tools",
-    "subCategory": "-",
-    "name": "Disguise Kit",
-    "weight": 3.0,
-    "cost": 25.0,
-    "cheap": 18.75,
-    "expensive": 37.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG157",
-    "category": "Tools",
-    "subCategory": "-",
-    "name": "Forgery Kit",
-    "weight": 5.0,
-    "cost": 15.0,
-    "cheap": 11.25,
-    "expensive": 22.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG158",
-    "category": "Tools",
-    "subCategory": "Gaming Set",
-    "name": "Dice",
-    "weight": 0,
-    "cost": 0.1,
-    "cheap": 0.07500000000000001,
-    "expensive": 0.15000000000000002,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "General Store",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG159",
-    "category": "Tools",
-    "subCategory": "Gaming Set",
-    "name": "Dragonchess",
-    "weight": 0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "General Store"
-    ]
-  },
-  {
-    "id": "AG160",
-    "category": "Tools",
-    "subCategory": "Gaming Set",
-    "name": "Playing Cards",
-    "weight": 0,
-    "cost": 0.5,
-    "cheap": 0.375,
-    "expensive": 0.75,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "General Store",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG161",
-    "category": "Tools",
-    "subCategory": "Gaming Set",
-    "name": "Three-Dragon Ante",
-    "weight": 0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "General Store"
-    ]
-  },
-  {
-    "id": "AG162",
-    "category": "Tools",
-    "subCategory": "-",
-    "name": "Herbalism Kit",
-    "weight": 3.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Temple",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG163",
-    "category": "Tools",
-    "subCategory": "Musical Instrument",
-    "name": "Bagpipes",
-    "weight": 6.0,
-    "cost": 30.0,
-    "cheap": 22.5,
-    "expensive": 45.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Leatherworker",
-      "Musical"
-    ]
-  },
-  {
-    "id": "AG164",
-    "category": "Tools",
-    "subCategory": "Musical Instrument",
-    "name": "Drum",
-    "weight": 3.0,
-    "cost": 6.0,
-    "cheap": 4.5,
-    "expensive": 9.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Leatherworker",
-      "Musical"
-    ]
-  },
-  {
-    "id": "AG165",
-    "category": "Tools",
-    "subCategory": "Musical Instrument",
-    "name": "Dulcimer",
-    "weight": 10.0,
-    "cost": 25.0,
-    "cheap": 18.75,
-    "expensive": 37.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Musical"
-    ]
-  },
-  {
-    "id": "AG166",
-    "category": "Tools",
-    "subCategory": "Musical Instrument",
-    "name": "Flute",
-    "weight": 1.0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple",
-      "Musical"
-    ]
-  },
-  {
-    "id": "AG167",
-    "category": "Tools",
-    "subCategory": "Musical Instrument",
-    "name": "Horn",
-    "weight": 2.0,
-    "cost": 3.0,
-    "cheap": 2.25,
-    "expensive": 4.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Temple",
-      "Musical"
-    ]
-  },
-  {
-    "id": "AG168",
-    "category": "Tools",
-    "subCategory": "Musical Instrument",
-    "name": "Lute",
-    "weight": 2.0,
-    "cost": 12.0,
-    "cheap": 9.0,
-    "expensive": 18.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple",
-      "Musical"
-    ]
-  },
-  {
-    "id": "AG169",
-    "category": "Tools",
-    "subCategory": "Musical Instrument",
-    "name": "Lyre",
-    "weight": 2.0,
-    "cost": 20.0,
-    "cheap": 15.0,
-    "expensive": 30.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Temple",
-      "Musical"
-    ]
-  },
-  {
-    "id": "AG170",
-    "category": "Tools",
-    "subCategory": "Musical Instrument",
-    "name": "Pan Flute",
-    "weight": 2.0,
-    "cost": 12.0,
-    "cheap": 9.0,
-    "expensive": 18.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Musical"
-    ]
-  },
-  {
-    "id": "AG171",
-    "category": "Tools",
-    "subCategory": "Musical Instrument",
-    "name": "Shawm",
-    "weight": 1.0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Musical"
-    ]
-  },
-  {
-    "id": "AG172",
-    "category": "Tools",
-    "subCategory": "Musical Instrument",
-    "name": "Viol",
-    "weight": 1.0,
-    "cost": 30.0,
-    "cheap": 22.5,
-    "expensive": 45.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Musical"
-    ]
-  },
-  {
-    "id": "AG173",
-    "category": "Tools",
-    "subCategory": "-",
-    "name": "Navigator's Tools",
-    "weight": 2.0,
-    "cost": 25.0,
-    "cheap": 18.75,
-    "expensive": 37.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG174",
-    "category": "Tools",
-    "subCategory": "-",
-    "name": "Poisoner's Kit",
-    "weight": 2.0,
-    "cost": 50.0,
-    "cheap": 37.5,
-    "expensive": 75.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG175",
-    "category": "Tools",
-    "subCategory": "-",
-    "name": "Thieves' Tools",
-    "weight": 1.0,
-    "cost": 25.0,
-    "cheap": 18.75,
-    "expensive": 37.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG176",
-    "category": "Transportation",
-    "subCategory": "Mounts and Other Animals",
-    "name": "Camel",
-    "weight": 0,
-    "cost": 50.0,
-    "cheap": 37.5,
-    "expensive": 75.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City"
-    ]
-  },
-  {
-    "id": "AG177",
-    "category": "Transportation",
-    "subCategory": "Mounts and Other Animals",
-    "name": "Elephant",
-    "weight": 0,
-    "cost": 200.0,
-    "cheap": 150.0,
-    "expensive": 300.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City"
-    ]
-  },
-  {
-    "id": "AG178",
-    "category": "Transportation",
-    "subCategory": "Mounts and Other Animals",
-    "name": "Horse, Draft",
-    "weight": 0,
-    "cost": 50.0,
-    "cheap": 37.5,
-    "expensive": 75.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG179",
-    "category": "Transportation",
-    "subCategory": "Mounts and Other Animals",
-    "name": "Horse, Riding",
-    "weight": 0,
-    "cost": 75.0,
-    "cheap": 56.25,
-    "expensive": 112.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG180",
-    "category": "Transportation",
-    "subCategory": "Mounts and Other Animals",
-    "name": "Mastiff",
-    "weight": 0,
-    "cost": 25.0,
-    "cheap": 18.75,
-    "expensive": 37.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG181",
-    "category": "Transportation",
-    "subCategory": "Mounts and Other Animals",
-    "name": "Mule",
-    "weight": 0,
-    "cost": 8.0,
-    "cheap": 6.0,
-    "expensive": 12.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town"
-    ]
-  },
-  {
-    "id": "AG182",
-    "category": "Transportation",
-    "subCategory": "Mounts and Other Animals",
-    "name": "Pony",
-    "weight": 0,
-    "cost": 30.0,
-    "cheap": 22.5,
-    "expensive": 45.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG183",
-    "category": "Transportation",
-    "subCategory": "Mounts and Other Animals",
-    "name": "Warhorse",
-    "weight": 0,
-    "cost": 400.0,
-    "cheap": 300.0,
-    "expensive": 600.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City"
-    ]
-  },
-  {
-    "id": "AG184",
-    "category": "Transportation",
-    "subCategory": "Track, Harness, and Drawn Vehicles",
-    "name": "Carriage",
-    "weight": 600.0,
-    "cost": 100.0,
-    "cheap": 75.0,
-    "expensive": 150.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG185",
-    "category": "Transportation",
-    "subCategory": "Track, Harness, and Drawn Vehicles",
-    "name": "Cart",
-    "weight": 200.0,
-    "cost": 15.0,
-    "cheap": 11.25,
-    "expensive": 22.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG186",
-    "category": "Transportation",
-    "subCategory": "Track, Harness, and Drawn Vehicles",
-    "name": "Chariot",
-    "weight": 100.0,
-    "cost": 250.0,
-    "cheap": 187.5,
-    "expensive": 375.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City"
-    ]
-  },
-  {
-    "id": "AG187",
-    "category": "Transportation",
-    "subCategory": "Track, Harness, and Drawn Vehicles",
-    "name": "Feed, Aminal",
-    "weight": 10.0,
-    "cost": 0.05,
-    "cheap": 0.037500000000000006,
-    "expensive": 0.07500000000000001,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG188",
-    "category": "Transportation",
-    "subCategory": "Track, Harness, and Drawn Vehicles",
-    "name": "Sanddle, Exotic",
-    "weight": 40.0,
-    "cost": 60.0,
-    "cheap": 45.0,
-    "expensive": 90.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City"
-    ]
-  },
-  {
-    "id": "AG189",
-    "category": "Transportation",
-    "subCategory": "Track, Harness, and Drawn Vehicles",
-    "name": "Sanddle, Military",
-    "weight": 30.0,
-    "cost": 20.0,
-    "cheap": 15.0,
-    "expensive": 30.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG190",
-    "category": "Transportation",
-    "subCategory": "Track, Harness, and Drawn Vehicles",
-    "name": "Sanddle, Riding",
-    "weight": 25.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG191",
-    "category": "Transportation",
-    "subCategory": "Track, Harness, and Drawn Vehicles",
-    "name": "Sled",
-    "weight": 300.0,
-    "cost": 20.0,
-    "cheap": 15.0,
-    "expensive": 30.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG192",
-    "category": "Transportation",
-    "subCategory": "Track, Harness, and Drawn Vehicles",
-    "name": "Stabling",
-    "weight": 0,
-    "cost": 0.5,
-    "cheap": 0.375,
-    "expensive": 0.75,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG193",
-    "category": "Transportation",
-    "subCategory": "Track, Harness, and Drawn Vehicles",
-    "name": "Wagon",
-    "weight": 400.0,
-    "cost": 35.0,
-    "cheap": 26.25,
-    "expensive": 52.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG194",
-    "category": "Transportation",
-    "subCategory": "Airborne and Waterborne Vehicles",
-    "name": "Airship",
-    "weight": 0,
-    "cost": 40000.0,
-    "cheap": 30000.0,
-    "expensive": 60000.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City"
-    ]
-  },
-  {
-    "id": "AG195",
-    "category": "Transportation",
-    "subCategory": "Airborne and Waterborne Vehicles",
-    "name": "Galley",
-    "weight": 0,
-    "cost": 30000.0,
-    "cheap": 22500.0,
-    "expensive": 45000.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City"
-    ]
-  },
-  {
-    "id": "AG196",
-    "category": "Transportation",
-    "subCategory": "Airborne and Waterborne Vehicles",
-    "name": "Keelboat",
-    "weight": 0,
-    "cost": 3000.0,
-    "cheap": 2250.0,
-    "expensive": 4500.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG197",
-    "category": "Transportation",
-    "subCategory": "Airborne and Waterborne Vehicles",
-    "name": "Longship",
-    "weight": 0,
-    "cost": 10000.0,
-    "cheap": 7500.0,
-    "expensive": 15000.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG198",
-    "category": "Transportation",
-    "subCategory": "Airborne and Waterborne Vehicles",
-    "name": "Rowboat",
-    "weight": 0,
-    "cost": 50.0,
-    "cheap": 37.5,
-    "expensive": 75.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG199",
-    "category": "Transportation",
-    "subCategory": "Airborne and Waterborne Vehicles",
-    "name": "Sailing Ship",
-    "weight": 0,
-    "cost": 10000.0,
-    "cheap": 7500.0,
-    "expensive": 15000.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City"
-    ]
-  },
-  {
-    "id": "AG200",
-    "category": "Transportation",
-    "subCategory": "Airborne and Waterborne Vehicles",
-    "name": "Warship",
-    "weight": 0,
-    "cost": 25000.0,
-    "cheap": 18750.0,
-    "expensive": 37500.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City"
-    ]
-  },
-  {
-    "id": "AG201",
-    "category": "Weapons",
-    "subCategory": "Simple Melee Weapons",
-    "name": "Club",
-    "weight": 2.0,
-    "cost": 0.1,
-    "cheap": 0.07500000000000001,
-    "expensive": 0.15000000000000002,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG202",
-    "category": "Weapons",
-    "subCategory": "Simple Melee Weapons",
-    "name": "Dagger",
-    "weight": 1.0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith",
-      "Adventuring",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG203",
-    "category": "Weapons",
-    "subCategory": "Simple Melee Weapons",
-    "name": "Greatclub",
-    "weight": 10.0,
-    "cost": 0.2,
-    "cheap": 0.15000000000000002,
-    "expensive": 0.30000000000000004,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG204",
-    "category": "Weapons",
-    "subCategory": "Simple Melee Weapons",
-    "name": "Handaxe",
-    "weight": 2.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG205",
-    "category": "Weapons",
-    "subCategory": "Simple Melee Weapons",
-    "name": "Javelin",
-    "weight": 2.0,
-    "cost": 0.5,
-    "cheap": 0.375,
-    "expensive": 0.75,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG206",
-    "category": "Weapons",
-    "subCategory": "Simple Melee Weapons",
-    "name": "Light Hammer",
-    "weight": 2.0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG207",
-    "category": "Weapons",
-    "subCategory": "Simple Melee Weapons",
-    "name": "Mace",
-    "weight": 4.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG208",
-    "category": "Weapons",
-    "subCategory": "Simple Melee Weapons",
-    "name": "Quarterstaff",
-    "weight": 4.0,
-    "cost": 0.2,
-    "cheap": 0.15000000000000002,
-    "expensive": 0.30000000000000004,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Adventuring",
-      "Arcane"
-    ]
-  },
-  {
-    "id": "AG209",
-    "category": "Weapons",
-    "subCategory": "Simple Melee Weapons",
-    "name": "Sickle",
-    "weight": 2.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG210",
-    "category": "Weapons",
-    "subCategory": "Simple Melee Weapons",
-    "name": "Spear",
-    "weight": 3.0,
-    "cost": 1.0,
-    "cheap": 0.75,
-    "expensive": 1.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG211",
-    "category": "Weapons",
-    "subCategory": "Simple Ranged Weapons",
-    "name": "Dart",
-    "weight": 0.25,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Adventuring",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG212",
-    "category": "Weapons",
-    "subCategory": "Simple Ranged Weapons",
-    "name": "Crossbow, Light",
-    "weight": 5.0,
-    "cost": 25.0,
-    "cheap": 18.75,
-    "expensive": 37.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Fletcher",
-      "Adventuring",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG213",
-    "category": "Weapons",
-    "subCategory": "Simple Ranged Weapons",
-    "name": "Shortbow",
-    "weight": 2.0,
-    "cost": 25.0,
-    "cheap": 18.75,
-    "expensive": 37.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Fletcher",
-      "Adventuring",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG214",
-    "category": "Weapons",
-    "subCategory": "Simple Ranged Weapons",
-    "name": "Sling",
-    "weight": 0,
-    "cost": 0.1,
-    "cheap": 0.07500000000000001,
-    "expensive": 0.15000000000000002,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Leatherworker",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG215",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Battleaxe",
-    "weight": 4.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG216",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Flail",
-    "weight": 2.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG217",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Glaive",
-    "weight": 6.0,
-    "cost": 20.0,
-    "cheap": 15.0,
-    "expensive": 30.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG218",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Greataxe",
-    "weight": 7.0,
-    "cost": 30.0,
-    "cheap": 22.5,
-    "expensive": 45.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG219",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Greatsword",
-    "weight": 6.0,
-    "cost": 50.0,
-    "cheap": 37.5,
-    "expensive": 75.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG220",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Halberd",
-    "weight": 6.0,
-    "cost": 20.0,
-    "cheap": 15.0,
-    "expensive": 30.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG221",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Lance",
-    "weight": 6.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG222",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Longsword",
-    "weight": 3.0,
-    "cost": 15.0,
-    "cheap": 11.25,
-    "expensive": 22.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG223",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Maul",
-    "weight": 10.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG224",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Morningstar",
-    "weight": 4.0,
-    "cost": 15.0,
-    "cheap": 11.25,
-    "expensive": 22.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG225",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Pike",
-    "weight": 18.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG226",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Rapier",
-    "weight": 2.0,
-    "cost": 25.0,
-    "cheap": 18.75,
-    "expensive": 37.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG227",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Scimitar",
-    "weight": 3.0,
-    "cost": 25.0,
-    "cheap": 18.75,
-    "expensive": 37.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG228",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Shortsword",
-    "weight": 2.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG229",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Trident",
-    "weight": 4.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG230",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Warhammer",
-    "weight": 5.0,
-    "cost": 15.0,
-    "cheap": 11.25,
-    "expensive": 22.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG231",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "War Pick",
-    "weight": 2.0,
-    "cost": 5.0,
-    "cheap": 3.75,
-    "expensive": 7.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Blacksmith"
-    ]
-  },
-  {
-    "id": "AG232",
-    "category": "Weapons",
-    "subCategory": "Martial Melee Weapons",
-    "name": "Whip",
-    "weight": 3.0,
-    "cost": 2.0,
-    "cheap": 1.5,
-    "expensive": 3.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Adventuring"
-    ]
-  },
-  {
-    "id": "AG233",
-    "category": "Weapons",
-    "subCategory": "Martial Ranged Weapons",
-    "name": "Blowgun",
-    "weight": 1.0,
-    "cost": 10.0,
-    "cheap": 7.5,
-    "expensive": 15.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Adventuring",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG234",
-    "category": "Weapons",
-    "subCategory": "Martial Ranged Weapons",
-    "name": "Crossbow, Hand",
-    "weight": 3.0,
-    "cost": 75.0,
-    "cheap": 56.25,
-    "expensive": 112.5,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Town",
-      "City",
-      "Fletcher",
-      "Adventuring",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG235",
-    "category": "Weapons",
-    "subCategory": "Martial Ranged Weapons",
-    "name": "Crossbow, Heavy",
-    "weight": 18.0,
-    "cost": 50.0,
-    "cheap": 37.5,
-    "expensive": 75.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Fletcher",
-      "Adventuring",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG236",
-    "category": "Weapons",
-    "subCategory": "Martial Ranged Weapons",
-    "name": "Longbow",
-    "weight": 2.0,
-    "cost": 50.0,
-    "cheap": 37.5,
-    "expensive": 75.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "Village",
-      "Town",
-      "City",
-      "Fletcher",
-      "Adventuring",
-      "Thieves"
-    ]
-  },
-  {
-    "id": "AG237",
-    "category": "Weapons",
-    "subCategory": "Martial Ranged Weapons",
-    "name": "Musket",
-    "weight": 10.0,
-    "cost": 500.0,
-    "cheap": 375.0,
-    "expensive": 750.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Armory"
-    ]
-  },
-  {
-    "id": "AG238",
-    "category": "Weapons",
-    "subCategory": "Martial Ranged Weapons",
-    "name": "Pistol",
-    "weight": 3.0,
-    "cost": 250.0,
-    "cheap": 187.5,
-    "expensive": 375.0,
-    "source": "PHB 2024",
-    "availableIn": [
-      "City",
-      "Armory"
-    ]
-  }
-]
+    "weight": "2 lb.",
+    "cost": "5.00 GP",
+    "cheap": "3.75 GP",
+    "expensive": "7.50 GP",
+    "source": "PHB 2024",
+    "availableIn": ["Village", "Town", "City", "Temple"]
+  },
+    {
+      "id": "SR001",
+      "category": "Services",
+      "subCategory": "Travel",
+      "name": "Coach Ride, Between Towns (per mile)",
+      "weight": "",
+      "cost": "0.03 GP",
+      "cheap": "0.02 GP",
+      "expensive": "0.05 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City"]
+    },
+    {
+      "id": "SR002",
+      "category": "Services",
+      "subCategory": "Travel",
+      "name": "Coach Ride, Within City (per mile)",
+      "weight": "",
+      "cost": "0.01 GP",
+      "cheap": "0.01 GP",
+      "expensive": "0.02 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City"]
+    },
+    {
+      "id": "SR003",
+      "category": "Services",
+      "subCategory": "Travel",
+      "name": "Road/Gate, Toll",
+      "weight": "",
+      "cost": "0.01 GP",
+      "cheap": "0.01 GP",
+      "expensive": "0.02 GP",
+      "source": "PHB 2024",
+      "availableIn": []
+    },
+    {
+      "id": "SR004",
+      "category": "Services",
+      "subCategory": "Travel",
+      "name": "Ship's Passage (per mile)",
+      "weight": "",
+      "cost": "0.10 GP",
+      "cheap": "0.08 GP",
+      "expensive": "0.15 GP",
+      "source": "PHB 2024",
+      "availableIn": []
+    },
+    {
+      "id": "SR005",
+      "category": "Services",
+      "subCategory": "Hirelings",
+      "name": "Hirelings, Skilled (per day)",
+      "weight": "",
+      "cost": "2.00 GP",
+      "cheap": "1.50 GP",
+      "expensive": "3.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City"]
+    },
+    {
+      "id": "SR006",
+      "category": "Services",
+      "subCategory": "Hirelings",
+      "name": "Hirelings, Unskilled (per day)",
+      "weight": "",
+      "cost": "0.20 GP",
+      "cheap": "0.15 GP",
+      "expensive": "0.30 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City"]
+    },
+    {
+      "id": "SR007",
+      "category": "Services",
+      "subCategory": "Hirelings",
+      "name": "Hirelings, Messenger (per mile)",
+      "weight": "",
+      "cost": "0.02 GP",
+      "cheap": "0.02 GP",
+      "expensive": "0.03 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City"]
+    },
+    {
+      "id": "SR008",
+      "category": "Services",
+      "subCategory": "Spellcasting",
+      "name": "Cantrip",
+      "weight": "",
+      "cost": "30.00 GP",
+      "cheap": "22.50 GP",
+      "expensive": "45.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City"]
+    },
+    {
+      "id": "SR009",
+      "category": "Services",
+      "subCategory": "Spellcasting",
+      "name": "Level 1",
+      "weight": "",
+      "cost": "50.00 GP",
+      "cheap": "37.50 GP",
+      "expensive": "75.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City"]
+    },
+    {
+      "id": "SR010",
+      "category": "Services",
+      "subCategory": "Spellcasting",
+      "name": "Level 2",
+      "weight": "",
+      "cost": "200.00 GP",
+      "cheap": "150.00 GP",
+      "expensive": "300.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City"]
+    },
+    {
+      "id": "SR011",
+      "category": "Services",
+      "subCategory": "Spellcasting",
+      "name": "Level 3",
+      "weight": "",
+      "cost": "300.00 GP",
+      "cheap": "225.00 GP",
+      "expensive": "450.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City"]
+    },
+    {
+      "id": "SR012",
+      "category": "Services",
+      "subCategory": "Spellcasting",
+      "name": "Level 4-5",
+      "weight": "",
+      "cost": "2,000.00 GP",
+      "cheap": "1,500.00 GP",
+      "expensive": "3,000.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City"]
+    },
+    {
+      "id": "SR013",
+      "category": "Services",
+      "subCategory": "Spellcasting",
+      "name": "Level 6-8",
+      "weight": "",
+      "cost": "20,000.00 GP",
+      "cheap": "15,000.00 GP",
+      "expensive": "30,000.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City"]
+    },
+    {
+      "id": "SR014",
+      "category": "Services",
+      "subCategory": "Spellcasting",
+      "name": "Level 9",
+      "weight": "",
+      "cost": "100,000.00 GP",
+      "cheap": "75,000.00 GP",
+      "expensive": "150,000.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City"]
+    },
+    {
+      "id": "TL001",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Alchemist's Supplies",
+      "weight": "8 lb.",
+      "cost": "50.00 GP",
+      "cheap": "37.50 GP",
+      "expensive": "75.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Potion", "Arcane"]
+    },
+    {
+      "id": "TL002",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Brewer's Supplies",
+      "weight": "9 lb.",
+      "cost": "20.00 GP",
+      "cheap": "15.00 GP",
+      "expensive": "30.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Potion"]
+    },
+    {
+      "id": "TL003",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Calligrapher's Supplies",
+      "weight": "5 lb.",
+      "cost": "10.00 GP",
+      "cheap": "7.50 GP",
+      "expensive": "15.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Temple", "Arcane"]
+    },
+    {
+      "id": "TL004",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Carpenter's Tools",
+      "weight": "6 lb.",
+      "cost": "8.00 GP",
+      "cheap": "6.00 GP",
+      "expensive": "12.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Blacksmith", "General Store"]
+    },
+    {
+      "id": "TL005",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Cartographer's Tools",
+      "weight": "6 lb.",
+      "cost": "15.00 GP",
+      "cheap": "11.25 GP",
+      "expensive": "22.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Adventuring"]
+    },
+    {
+      "id": "TL006",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Cobbler's Tools",
+      "weight": "5 lb.",
+      "cost": "5.00 GP",
+      "cheap": "3.75 GP",
+      "expensive": "7.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Leatherworker", "General Store"]
+    },
+    {
+      "id": "TL007",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Cook's Utensils",
+      "weight": "8 lb.",
+      "cost": "1.00 GP",
+      "cheap": "0.75 GP",
+      "expensive": "1.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "General Store", "Potion"]
+    },
+    {
+      "id": "TL008",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Glassblower's Tools",
+      "weight": "5 lb.",
+      "cost": "30.00 GP",
+      "cheap": "22.50 GP",
+      "expensive": "45.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City", "General Store"]
+    },
+    {
+      "id": "TL009",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Jeweler's Tools",
+      "weight": "2 lb.",
+      "cost": "25.00 GP",
+      "cheap": "18.75 GP",
+      "expensive": "37.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City", "Adventuring", "Jeweler"]
+    },
+    {
+      "id": "TL010",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Leatherworker's Tools",
+      "weight": "5 lb.",
+      "cost": "5.00 GP",
+      "cheap": "3.75 GP",
+      "expensive": "7.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Leatherworker", "General Store"]
+    },
+    {
+      "id": "TL011",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Mason's Tools",
+      "weight": "8 lb.",
+      "cost": "10.00 GP",
+      "cheap": "7.50 GP",
+      "expensive": "15.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Blacksmith", "General Store"]
+    },
+    {
+      "id": "TL012",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Painter's Supplies",
+      "weight": "5 lb.",
+      "cost": "10.00 GP",
+      "cheap": "7.50 GP",
+      "expensive": "15.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City", "General Store"]
+    },
+    {
+      "id": "TL013",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Potter's Tools",
+      "weight": "3 lb.",
+      "cost": "10.00 GP",
+      "cheap": "7.50 GP",
+      "expensive": "15.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "General Store"]
+    },
+    {
+      "id": "TL014",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Smith's Tools",
+      "weight": "8 lb.",
+      "cost": "20.00 GP",
+      "cheap": "15.00 GP",
+      "expensive": "30.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Blacksmith", "General Store"]
+    },
+    {
+      "id": "TL015",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Tinker's Tools",
+      "weight": "10 lb.",
+      "cost": "50.00 GP",
+      "cheap": "37.50 GP",
+      "expensive": "75.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City", "Blacksmith", "Adventuring"]
+    },
+    {
+      "id": "TL016",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Weaver's Tools",
+      "weight": "5 lb.",
+      "cost": "1.00 GP",
+      "cheap": "0.75 GP",
+      "expensive": "1.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "General Store", "Tailor"]
+    },
+    {
+      "id": "TL017",
+      "category": "Tools",
+      "subCategory": "Artisan's Tools",
+      "name": "Woodcarver's Tools",
+      "weight": "5 lb.",
+      "cost": "1.00 GP",
+      "cheap": "0.75 GP",
+      "expensive": "1.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "General Store"]
+    },
+    {
+      "id": "TL018",
+      "category": "Tools",
+      "subCategory": "",
+      "name": "Disguise Kit",
+      "weight": "3 lb.",
+      "cost": "25.00 GP",
+      "cheap": "18.75 GP",
+      "expensive": "37.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Thieves"]
+    },
+    {
+      "id": "TL019",
+      "category": "Tools",
+      "subCategory": "",
+      "name": "Forgery Kit",
+      "weight": "5 lb.",
+      "cost": "15.00 GP",
+      "cheap": "11.25 GP",
+      "expensive": "22.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Thieves"]
+    },
+    {
+      "id": "TL020",
+      "category": "Tools",
+      "subCategory": "Gaming Set",
+      "name": "Dice",
+      "weight": "",
+      "cost": "0.10 GP",
+      "cheap": "0.08 GP",
+      "expensive": "0.15 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "General Store", "Inn"]
+    },
+    {
+      "id": "TL021",
+      "category": "Tools",
+      "subCategory": "Gaming Set",
+      "name": "Dragonchess",
+      "weight": "",
+      "cost": "1.00 GP",
+      "cheap": "0.75 GP",
+      "expensive": "1.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "General Store"]
+    },
+    {
+      "id": "TL022",
+      "category": "Tools",
+      "subCategory": "Gaming Set",
+      "name": "Playing Cards",
+      "weight": "",
+      "cost": "0.50 GP",
+      "cheap": "0.38 GP",
+      "expensive": "0.75 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "General Store", "Inn"]
+    },
+    {
+      "id": "TL023",
+      "category": "Tools",
+      "subCategory": "Gaming Set",
+      "name": "Three-Dragon Ante",
+      "weight": "",
+      "cost": "1.00 GP",
+      "cheap": "0.75 GP",
+      "expensive": "1.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "General Store"]
+    },
+    {
+      "id": "TL024",
+      "category": "Tools",
+      "subCategory": "",
+      "name": "Herbalism Kit",
+      "weight": "3 lb.",
+      "cost": "5.00 GP",
+      "cheap": "3.75 GP",
+      "expensive": "7.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Temple", "Adventuring"]
+    },
+    {
+      "id": "TL025",
+      "category": "Tools",
+      "subCategory": "Musical Instrument",
+      "name": "Bagpipes",
+      "weight": "6 lb.",
+      "cost": "30.00 GP",
+      "cheap": "22.50 GP",
+      "expensive": "45.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City", "Leatherworker", "Musical"]
+    },
+    {
+      "id": "TL026",
+      "category": "Tools",
+      "subCategory": "Musical Instrument",
+      "name": "Drum",
+      "weight": "3 lb.",
+      "cost": "6.00 GP",
+      "cheap": "4.50 GP",
+      "expensive": "9.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Leatherworker", "Musical"]
+    },
+    {
+      "id": "TL027",
+      "category": "Tools",
+      "subCategory": "Musical Instrument",
+      "name": "Dulcimer",
+      "weight": "10 lb.",
+      "cost": "25.00 GP",
+      "cheap": "18.75 GP",
+      "expensive": "37.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Musical"]
+    },
+    {
+      "id": "TL028",
+      "category": "Tools",
+      "subCategory": "Musical Instrument",
+      "name": "Flute",
+      "weight": "1 lb.",
+      "cost": "2.00 GP",
+      "cheap": "1.50 GP",
+      "expensive": "3.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Temple", "Musical"]
+    },
+    {
+      "id": "TL029",
+      "category": "Tools",
+      "subCategory": "Musical Instrument",
+      "name": "Horn",
+      "weight": "2 lb.",
+      "cost": "3.00 GP",
+      "cheap": "2.25 GP",
+      "expensive": "4.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Temple", "Musical"]
+    },
+    {
+      "id": "TL030",
+      "category": "Tools",
+      "subCategory": "Musical Instrument",
+      "name": "Lute",
+      "weight": "2 lb.",
+      "cost": "12.00 GP",
+      "cheap": "9.00 GP",
+      "expensive": "18.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Temple", "Musical"]
+    },
+    {
+      "id": "TL031",
+      "category": "Tools",
+      "subCategory": "Musical Instrument",
+      "name": "Lyre",
+      "weight": "2 lb.",
+      "cost": "20.00 GP",
+      "cheap": "15.00 GP",
+      "expensive": "30.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Temple", "Musical"]
+    },
+    {
+      "id": "TL032",
+      "category": "Tools",
+      "subCategory": "Musical Instrument",
+      "name": "Pan Flute",
+      "weight": "2 lb.",
+      "cost": "12.00 GP",
+      "cheap": "9.00 GP",
+      "expensive": "18.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Musical"]
+    },
+    {
+      "id": "TL033",
+      "category": "Tools",
+      "subCategory": "Musical Instrument",
+      "name": "Shawm",
+      "weight": "1 lb.",
+      "cost": "2.00 GP",
+      "cheap": "1.50 GP",
+      "expensive": "3.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Musical"]
+    },
+    {
+      "id": "TL034",
+      "category": "Tools",
+      "subCategory": "Musical Instrument",
+      "name": "Viol",
+      "weight": "1 lb.",
+      "cost": "30.00 GP",
+      "cheap": "22.50 GP",
+      "expensive": "45.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City", "Musical"]
+    },
+    {
+      "id": "TL035",
+      "category": "Tools",
+      "subCategory": "",
+      "name": "Navigator's Tools",
+      "weight": "2 lb.",
+      "cost": "25.00 GP",
+      "cheap": "18.75 GP",
+      "expensive": "37.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Adventuring"]
+    },
+    {
+      "id": "TL036",
+      "category": "Tools",
+      "subCategory": "",
+      "name": "Poisoner's Kit",
+      "weight": "2 lb.",
+      "cost": "50.00 GP",
+      "cheap": "37.50 GP",
+      "expensive": "75.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Thieves"]
+    },
+    {
+      "id": "TL037",
+      "category": "Tools",
+      "subCategory": "",
+      "name": "Thieves' Tools",
+      "weight": "1 lb.",
+      "cost": "25.00 GP",
+      "cheap": "18.75 GP",
+      "expensive": "37.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Thieves"]
+    },
+    {
+      "id": "TR001",
+      "category": "Transportation",
+      "subCategory": "Mounts and Other Animals",
+      "name": "Camel",
+      "weight": "",
+      "cost": "50.00 GP",
+      "cheap": "37.50 GP",
+      "expensive": "75.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City"]
+    },
+    {
+      "id": "TR002",
+      "category": "Transportation",
+      "subCategory": "Mounts and Other Animals",
+      "name": "Elephant",
+      "weight": "",
+      "cost": "200.00 GP",
+      "cheap": "150.00 GP",
+      "expensive": "300.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City"]
+    },
+    {
+      "id": "TR003",
+      "category": "Transportation",
+      "subCategory": "Mounts and Other Animals",
+      "name": "Horse, Draft",
+      "weight": "",
+      "cost": "50.00 GP",
+      "cheap": "37.50 GP",
+      "expensive": "75.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City"]
+    },
+    {
+      "id": "TR004",
+      "category": "Transportation",
+      "subCategory": "Mounts and Other Animals",
+      "name": "Horse, Riding",
+      "weight": "",
+      "cost": "75.00 GP",
+      "cheap": "56.25 GP",
+      "expensive": "112.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City"]
+    },
+    {
+      "id": "TR005",
+      "category": "Transportation",
+      "subCategory": "Mounts and Other Animals",
+      "name": "Mastiff",
+      "weight": "",
+      "cost": "25.00 GP",
+      "cheap": "18.75 GP",
+      "expensive": "37.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City"]
+    },
+    {
+      "id": "TR006",
+      "category": "Transportation",
+      "subCategory": "Mounts and Other Animals",
+      "name": "Mule",
+      "weight": "",
+      "cost": "8.00 GP",
+      "cheap": "6.00 GP",
+      "expensive": "12.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town"]
+    },
+    {
+      "id": "TR007",
+      "category": "Transportation",
+      "subCategory": "Mounts and Other Animals",
+      "name": "Pony",
+      "weight": "",
+      "cost": "30.00 GP",
+      "cheap": "22.50 GP",
+      "expensive": "45.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City"]
+    },
+    {
+      "id": "TR008",
+      "category": "Transportation",
+      "subCategory": "Mounts and Other Animals",
+      "name": "Warhorse",
+      "weight": "",
+      "cost": "400.00 GP",
+      "cheap": "300.00 GP",
+      "expensive": "600.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City"]
+    },
+    {
+      "id": "TR009",
+      "category": "Transportation",
+      "subCategory": "Track, Harness, and Drawn Vehicles",
+      "name": "Carriage",
+      "weight": "600 lb.",
+      "cost": "100.00 GP",
+      "cheap": "75.00 GP",
+      "expensive": "150.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City"]
+    },
+    {
+      "id": "TR010",
+      "category": "Transportation",
+      "subCategory": "Track, Harness, and Drawn Vehicles",
+      "name": "Cart",
+      "weight": "200 lb.",
+      "cost": "15.00 GP",
+      "cheap": "11.25 GP",
+      "expensive": "22.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City"]
+    },
+    {
+      "id": "TR011",
+      "category": "Transportation",
+      "subCategory": "Track, Harness, and Drawn Vehicles",
+      "name": "Chariot",
+      "weight": "100 lb.",
+      "cost": "250.00 GP",
+      "cheap": "187.50 GP",
+      "expensive": "375.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City"]
+    },
+    {
+      "id": "TR012",
+      "category": "Transportation",
+      "subCategory": "Track, Harness, and Drawn Vehicles",
+      "name": "Feed, Aminal",
+      "weight": "10 lb.",
+      "cost": "0.05 GP",
+      "cheap": "0.04 GP",
+      "expensive": "0.08 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City"]
+    },
+    {
+      "id": "TR013",
+      "category": "Transportation",
+      "subCategory": "Track, Harness, and Drawn Vehicles",
+      "name": "Sanddle, Exotic",
+      "weight": "40 lb.",
+      "cost": "60.00 GP",
+      "cheap": "45.00 GP",
+      "expensive": "90.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City"]
+    },
+    {
+      "id": "TR014",
+      "category": "Transportation",
+      "subCategory": "Track, Harness, and Drawn Vehicles",
+      "name": "Sanddle, Military",
+      "weight": "30 lb.",
+      "cost": "20.00 GP",
+      "cheap": "15.00 GP",
+      "expensive": "30.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City"]
+    },
+    {
+      "id": "TR015",
+      "category": "Transportation",
+      "subCategory": "Track, Harness, and Drawn Vehicles",
+      "name": "Sanddle, Riding",
+      "weight": "25 lb.",
+      "cost": "10.00 GP",
+      "cheap": "7.50 GP",
+      "expensive": "15.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City"]
+    },
+    {
+      "id": "TR016",
+      "category": "Transportation",
+      "subCategory": "Track, Harness, and Drawn Vehicles",
+      "name": "Sled",
+      "weight": "300 lb.",
+      "cost": "20.00 GP",
+      "cheap": "15.00 GP",
+      "expensive": "30.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town"]
+    },
+    {
+      "id": "TR017",
+      "category": "Transportation",
+      "subCategory": "Track, Harness, and Drawn Vehicles",
+      "name": "Stabling",
+      "weight": "",
+      "cost": "0.50 GP",
+      "cheap": "0.38 GP",
+      "expensive": "0.75 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City"]
+    },
+    {
+      "id": "TR018",
+      "category": "Transportation",
+      "subCategory": "Track, Harness, and Drawn Vehicles",
+      "name": "Wagon",
+      "weight": "400 lb.",
+      "cost": "35.00 GP",
+      "cheap": "26.25 GP",
+      "expensive": "52.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City"]
+    },
+    {
+      "id": "TR019",
+      "category": "Transportation",
+      "subCategory": "Airborne and Waterborne Vehicles",
+      "name": "Airship",
+      "weight": "",
+      "cost": "40,000.00 GP",
+      "cheap": "30,000.00 GP",
+      "expensive": "60,000.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City"]
+    },
+    {
+      "id": "TR020",
+      "category": "Transportation",
+      "subCategory": "Airborne and Waterborne Vehicles",
+      "name": "Galley",
+      "weight": "",
+      "cost": "30,000.00 GP",
+      "cheap": "22,500.00 GP",
+      "expensive": "45,000.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City"]
+    },
+    {
+      "id": "TR021",
+      "category": "Transportation",
+      "subCategory": "Airborne and Waterborne Vehicles",
+      "name": "Keelboat",
+      "weight": "",
+      "cost": "3,000.00 GP",
+      "cheap": "2,250.00 GP",
+      "expensive": "4,500.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City"]
+    },
+    {
+      "id": "TR022",
+      "category": "Transportation",
+      "subCategory": "Airborne and Waterborne Vehicles",
+      "name": "Longship",
+      "weight": "",
+      "cost": "10,000.00 GP",
+      "cheap": "7,500.00 GP",
+      "expensive": "15,000.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City"]
+    },
+    {
+      "id": "TR023",
+      "category": "Transportation",
+      "subCategory": "Airborne and Waterborne Vehicles",
+      "name": "Rowboat",
+      "weight": "",
+      "cost": "50.00 GP",
+      "cheap": "37.50 GP",
+      "expensive": "75.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City"]
+    },
+    {
+      "id": "TR024",
+      "category": "Transportation",
+      "subCategory": "Airborne and Waterborne Vehicles",
+      "name": "Sailing Ship",
+      "weight": "",
+      "cost": "10,000.00 GP",
+      "cheap": "7,500.00 GP",
+      "expensive": "15,000.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City"]
+    },
+    {
+      "id": "TR025",
+      "category": "Transportation",
+      "subCategory": "Airborne and Waterborne Vehicles",
+      "name": "Warship",
+      "weight": "",
+      "cost": "25,000.00 GP",
+      "cheap": "18,750.00 GP",
+      "expensive": "37,500.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City"]
+    },
+    {
+      "id": "WP001",
+      "category": "Weapons",
+      "subCategory": "Simple Melee Weapons",
+      "name": "Club",
+      "weight": "2 lb.",
+      "cost": "0.10 GP",
+      "cheap": "0.08 GP",
+      "expensive": "0.15 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Adventuring"]
+    },
+    {
+      "id": "WP002",
+      "category": "Weapons",
+      "subCategory": "Simple Melee Weapons",
+      "name": "Dagger",
+      "weight": "1 lb.",
+      "cost": "2.00 GP",
+      "cheap": "1.50 GP",
+      "expensive": "3.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Blacksmith", "Thieves"]
+    },
+    {
+      "id": "WP003",
+      "category": "Weapons",
+      "subCategory": "Simple Melee Weapons",
+      "name": "Greatclub",
+      "weight": "10 lb.",
+      "cost": "0.20 GP",
+      "cheap": "0.15 GP",
+      "expensive": "0.30 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Adventuring"]
+    },
+    {
+      "id": "WP004",
+      "category": "Weapons",
+      "subCategory": "Simple Melee Weapons",
+      "name": "Handaxe",
+      "weight": "2 lb.",
+      "cost": "5.00 GP",
+      "cheap": "3.75 GP",
+      "expensive": "7.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP005",
+      "category": "Weapons",
+      "subCategory": "Simple Melee Weapons",
+      "name": "Javelin",
+      "weight": "2 lb.",
+      "cost": "0.50 GP",
+      "cheap": "0.38 GP",
+      "expensive": "0.75 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP006",
+      "category": "Weapons",
+      "subCategory": "Simple Melee Weapons",
+      "name": "Light Hammer",
+      "weight": "2 lb.",
+      "cost": "2.00 GP",
+      "cheap": "1.50 GP",
+      "expensive": "3.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP007",
+      "category": "Weapons",
+      "subCategory": "Simple Melee Weapons",
+      "name": "Mace",
+      "weight": "4 lb.",
+      "cost": "5.00 GP",
+      "cheap": "3.75 GP",
+      "expensive": "7.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP008",
+      "category": "Weapons",
+      "subCategory": "Simple Melee Weapons",
+      "name": "Quarterstaff",
+      "weight": "4 lb.",
+      "cost": "0.20 GP",
+      "cheap": "0.15 GP",
+      "expensive": "0.30 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Arcane"]
+    },
+    {
+      "id": "WP009",
+      "category": "Weapons",
+      "subCategory": "Simple Melee Weapons",
+      "name": "Sickle",
+      "weight": "2 lb.",
+      "cost": "1.00 GP",
+      "cheap": "0.75 GP",
+      "expensive": "1.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP010",
+      "category": "Weapons",
+      "subCategory": "Simple Melee Weapons",
+      "name": "Spear",
+      "weight": "3 lb.",
+      "cost": "1.00 GP",
+      "cheap": "0.75 GP",
+      "expensive": "1.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP011",
+      "category": "Weapons",
+      "subCategory": "Simple Ranged Weapons",
+      "name": "Dart",
+      "weight": "0.25 lb.",
+      "cost": "5.00 GP",
+      "cheap": "3.75 GP",
+      "expensive": "7.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Adventuring", "Thieves"]
+    },
+    {
+      "id": "WP012",
+      "category": "Weapons",
+      "subCategory": "Simple Ranged Weapons",
+      "name": "Crossbow, Light",
+      "weight": "5 lb.",
+      "cost": "25.00 GP",
+      "cheap": "18.75 GP",
+      "expensive": "37.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Fletcher", "Adventuring", "Thieves"]
+    },
+    {
+      "id": "WP013",
+      "category": "Weapons",
+      "subCategory": "Simple Ranged Weapons",
+      "name": "Shortbow",
+      "weight": "2 lb.",
+      "cost": "25.00 GP",
+      "cheap": "18.75 GP",
+      "expensive": "37.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Fletcher", "Adventuring", "Thieves"]
+    },
+    {
+      "id": "WP014",
+      "category": "Weapons",
+      "subCategory": "Simple Ranged Weapons",
+      "name": "Sling",
+      "weight": "",
+      "cost": "0.10 GP",
+      "cheap": "0.08 GP",
+      "expensive": "0.15 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Leatherworker", "Adventuring"]
+    },
+    {
+      "id": "WP015",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Battleaxe",
+      "weight": "4 lb.",
+      "cost": "10.00 GP",
+      "cheap": "7.50 GP",
+      "expensive": "15.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP016",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Flail",
+      "weight": "2 lb.",
+      "cost": "10.00 GP",
+      "cheap": "7.50 GP",
+      "expensive": "15.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP017",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Glaive",
+      "weight": "6 lb.",
+      "cost": "20.00 GP",
+      "cheap": "15.00 GP",
+      "expensive": "30.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP018",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Greataxe",
+      "weight": "7 lb.",
+      "cost": "30.00 GP",
+      "cheap": "22.50 GP",
+      "expensive": "45.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP019",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Greatsword",
+      "weight": "6 lb.",
+      "cost": "50.00 GP",
+      "cheap": "37.50 GP",
+      "expensive": "75.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP020",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Halberd",
+      "weight": "6 lb.",
+      "cost": "20.00 GP",
+      "cheap": "15.00 GP",
+      "expensive": "30.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP021",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Lance",
+      "weight": "6 lb.",
+      "cost": "10.00 GP",
+      "cheap": "7.50 GP",
+      "expensive": "15.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City", "Blacksmith"]
+    },
+    {
+      "id": "WP022",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Longsword",
+      "weight": "3 lb.",
+      "cost": "15.00 GP",
+      "cheap": "11.25 GP",
+      "expensive": "22.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP023",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Maul",
+      "weight": "10 lb.",
+      "cost": "10.00 GP",
+      "cheap": "7.50 GP",
+      "expensive": "15.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP024",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Morningstar",
+      "weight": "4 lb.",
+      "cost": "15.00 GP",
+      "cheap": "11.25 GP",
+      "expensive": "22.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP025",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Pike",
+      "weight": "18 lb.",
+      "cost": "5.00 GP",
+      "cheap": "3.75 GP",
+      "expensive": "7.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP026",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Rapier",
+      "weight": "2 lb.",
+      "cost": "25.00 GP",
+      "cheap": "18.75 GP",
+      "expensive": "37.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Blacksmith", "Thieves"]
+    },
+    {
+      "id": "WP027",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Scimitar",
+      "weight": "3 lb.",
+      "cost": "25.00 GP",
+      "cheap": "18.75 GP",
+      "expensive": "37.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP028",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Shortsword",
+      "weight": "2 lb.",
+      "cost": "10.00 GP",
+      "cheap": "7.50 GP",
+      "expensive": "15.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Blacksmith", "Thieves"]
+    },
+    {
+      "id": "WP029",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Trident",
+      "weight": "4 lb.",
+      "cost": "5.00 GP",
+      "cheap": "3.75 GP",
+      "expensive": "7.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City", "Blacksmith"]
+    },
+    {
+      "id": "WP030",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Warhammer",
+      "weight": "5 lb.",
+      "cost": "15.00 GP",
+      "cheap": "11.25 GP",
+      "expensive": "22.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP031",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "War Pick",
+      "weight": "2 lb.",
+      "cost": "5.00 GP",
+      "cheap": "3.75 GP",
+      "expensive": "7.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Blacksmith"]
+    },
+    {
+      "id": "WP032",
+      "category": "Weapons",
+      "subCategory": "Martial Melee Weapons",
+      "name": "Whip",
+      "weight": "3 lb.",
+      "cost": "2.00 GP",
+      "cheap": "1.50 GP",
+      "expensive": "3.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Adventuring"]
+    },
+    {
+      "id": "WP033",
+      "category": "Weapons",
+      "subCategory": "Martial Ranged Weapons",
+      "name": "Blowgun",
+      "weight": "1 lb.",
+      "cost": "10.00 GP",
+      "cheap": "7.50 GP",
+      "expensive": "15.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Adventuring", "Thieves"]
+    },
+    {
+      "id": "WP034",
+      "category": "Weapons",
+      "subCategory": "Martial Ranged Weapons",
+      "name": "Crossbow, Hand",
+      "weight": "3 lb.",
+      "cost": "75.00 GP",
+      "cheap": "56.25 GP",
+      "expensive": "112.50 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Town", "City", "Fletcher", "Adventuring", "Thieves"]
+    },
+    {
+      "id": "WP035",
+      "category": "Weapons",
+      "subCategory": "Martial Ranged Weapons",
+      "name": "Crossbow, Heavy",
+      "weight": "18 lb.",
+      "cost": "50.00 GP",
+      "cheap": "37.50 GP",
+      "expensive": "75.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City", "Fletcher", "Adventuring", "Thieves"]
+    },
+    {
+      "id": "WP036",
+      "category": "Weapons",
+      "subCategory": "Martial Ranged Weapons",
+      "name": "Longbow",
+      "weight": "2 lb.",
+      "cost": "50.00 GP",
+      "cheap": "37.50 GP",
+      "expensive": "75.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["Village", "Town", "City", "Fletcher", "Adventuring", "Thieves"]
+    },
+    {
+      "id": "WP037",
+      "category": "Weapons",
+      "subCategory": "Martial Ranged Weapons",
+      "name": "Musket",
+      "weight": "10 lb.",
+      "cost": "500.00 GP",
+      "cheap": "375.00 GP",
+      "expensive": "750.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City", "Armory"]
+    },
+    {
+      "id": "WP038",
+      "category": "Weapons",
+      "subCategory": "Martial Ranged Weapons",
+      "name": "Pistol",
+      "weight": "3 lb.",
+      "cost": "250.00 GP",
+      "cheap": "187.50 GP",
+      "expensive": "375.00 GP",
+      "source": "PHB 2024",
+      "availableIn": ["City", "Armory"]
+    }
+  ]
