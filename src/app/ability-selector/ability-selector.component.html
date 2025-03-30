@@ -1,0 +1,18 @@
+<!-- src/app/ability-selector/ability-selector.component.html -->
+<div>
+    <h3>Abilities</h3>
+    <div *ngFor="let key of objectKeys(abilities)">
+      <div>{{ key }}: 
+        {{ abilities[key].base }}, 
+        {{ abilities[key].bonus }},
+        {{ abilities[key].total }},
+        {{ abilities[key].modifier }}
+      </div>
+      <input 
+        type="number" 
+        [value]="abilities[key].total" 
+        (input)="handleAbilityChange(key, $event.target.value)" 
+      />
+    </div>
+  </div>
+  

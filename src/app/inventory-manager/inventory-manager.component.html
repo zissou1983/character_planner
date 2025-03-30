@@ -1,0 +1,11 @@
+<!-- src/app/inventory-manager/inventory-manager.component.html -->
+<div>
+    <h2>Inventory Manager</h2>
+    <button (click)="handleAddItem()">Add Item</button>
+    <ul>
+      <li *ngFor="let item of inventory; let i = index">
+        {{ item }} <button (click)="handleRemoveItem(i)">Remove</button>
+      </li>
+    </ul>
+  </div>
+  

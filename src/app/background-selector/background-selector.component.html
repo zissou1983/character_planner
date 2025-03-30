@@ -1,0 +1,22 @@
+<div>
+    <!-- Titel -->
+    <h3>Choose a Background</h3>
+  
+    <!-- Auswahlmöglichkeiten -->
+    <div *ngFor="let bg of backgrounds">
+      <label>
+        <input 
+          type="radio" 
+          name="background" 
+          [value]="bg.id" 
+          [(ngModel)]="selected" 
+          (change)="handleSelect(bg.id)"
+        />
+        <div>
+          <strong>{{ bg.name }}</strong>
+          <p>{{ bg.description }}</p>
+        </div>
+      </label>
+    </div>
+  </div>
+  

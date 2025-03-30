@@ -1,0 +1,9 @@
+/* src/app/summary-tab/summary-tab.component.css */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  h3 {
+    margin-top: 20px;
+  }
+  

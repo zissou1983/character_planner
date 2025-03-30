@@ -1,0 +1,63 @@
+<!-- src/app/app.component.html -->
+
+<div style="text-align:center;">
+  <h1>
+    Welcome to the Character Planner!
+  </h1>
+
+  <!-- Character Details Component -->
+  <app-character-builder 
+    [name]="name"
+    [gender]="gender"
+    [alignment]="alignment"
+    [inspiration]="inspiration"
+    [languages]="languages"
+    [knownLanguages]="knownLanguages"
+    (onDetailChange)="handleDetailChange($event.field, $event.value)"
+    (onToggleLanguage)="handleToggleLanguage($event)">
+  </app-character-builder>
+
+  <!-- Summary Tab Component -->
+  <app-summary-tab
+    [name]="name"
+    [gender]="gender"
+    [alignment]="alignment"
+    [species]="species"
+    [characterClass]="characterClass"
+    [background]="background"
+    [abilities]="abilities"
+    [feats]="feats"
+    [equipment]="equipment"
+    [languages]="languages"
+    [inventory]="inventory">
+  </app-summary-tab>
+
+  <!-- Additional Components -->
+  <app-ability-selector 
+    [abilities]="abilities" 
+    (onChange)="handleAbilityChange($event)">
+  </app-ability-selector>
+
+  <app-feat-selector 
+    [feats]="feats" 
+    (onChange)="handleFeatSelection($event)">
+  </app-feat-selector>
+
+  <app-inventory-manager 
+    [inventory]="inventory" 
+    (onAddItem)="handleAddItem($event)"
+    (onRemoveItem)="handleRemoveItem($event)">
+  </app-inventory-manager>
+
+  <app-equipment-selector 
+    [equipment]="equipment" 
+    (onChange)="handleEquipmentChange($event)">
+  </app-equipment-selector>
+  
+  <app-additional-treasure 
+    [treasure]="treasure" 
+    (onAddTreasure)="handleAddTreasure($event)"
+    (onRemoveTreasure)="handleRemoveTreasure($event)">
+  </app-additional-treasure>
+
+</div>

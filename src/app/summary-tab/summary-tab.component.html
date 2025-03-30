@@ -1,0 +1,51 @@
+<!-- src/app/summary-tab/summary-tab.component.html -->
+<div>
+  <h2>Summary</h2>
+  <div><strong>Name:</strong> {{ name }}</div>
+  <div><strong>Gender:</strong> {{ gender }}</div>
+  <div><strong>Alignment:</strong> {{ alignment }}</div>
+  <div><strong>Species:</strong> {{ species }}</div>
+  <div><strong>Class:</strong> {{ characterClass }}</div>
+  <div><strong>Background:</strong> {{ background }}</div>
+
+  <div>
+    <h3>Abilities:</h3>
+    <ul>
+      <!-- Hier verwenden wir Object.keys statt objectKeys -->
+      <li *ngFor="let ability of objectKeys(abilities)">
+        {{ ability }}: Base {{ abilities[ability].base }}, 
+        Bonus {{ abilities[ability].bonus }},
+        Total {{ abilities[ability].total }},
+        Modifier {{ abilities[ability].modifier }}
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Feats:</h3>
+    <ul>
+      <li *ngFor="let feat of feats">{{ feat }}</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Equipment:</h3>
+    <ul>
+      <li *ngFor="let item of equipment">{{ item }}</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Languages:</h3>
+    <ul>
+      <li *ngFor="let language of languages">{{ language }}</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Inventory:</h3>
+    <ul>
+      <li *ngFor="let item of inventory">{{ item }}</li>
+    </ul>
+  </div>
+</div>

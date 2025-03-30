@@ -1,0 +1,11 @@
+<!-- src/app/feat-selector/feat-selector.component.html -->
+<div>
+    <h3>Feats</h3>
+    <div *ngFor="let feat of validFeats">
+      <div>{{ feat.name }}</div>
+      <button (click)="handleToggle(feat.name)">
+        {{ selectedFeats.includes(feat.name) ? 'Deselect' : 'Select' }}
+      </button>
+    </div>
+  </div>
+  

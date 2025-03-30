@@ -1,0 +1,75 @@
+<!-- src/app/character-builder-layout/character-builder-layout.component.html -->
+<mat-tab-group>
+    <mat-tab label="Details">
+      <app-character-details
+        [name]="name"
+        [gender]="gender"
+        [alignment]="alignment"
+        [inspiration]="inspiration"
+        [languages]="languages"
+        [knownLanguages]="languages"
+        (onDetailChange)="handleAbilityChange($event.field, $event.value)"
+        (onToggleLanguage)="handleLanguageToggle($event)"
+      ></app-character-details>
+    </mat-tab>
+  
+    <mat-tab label="Species">
+      <app-species-selector [speciesList]="speciesData" [selected]="species" (onSelect)="species = $event"></app-species-selector>
+    </mat-tab>
+  
+    <mat-tab label="Class">
+      <app-class-selector [classes]="classesData" [selected]="characterClass" (onSelect)="characterClass = $event"></app-class-selector>
+    </mat-tab>
+  
+    <mat-tab label="Background">
+      <app-background-selector [backgrounds]="backgroundsData" [selected]="background" (onSelect)="background = $event"></app-background-selector>
+    </mat-tab>
+  
+    <mat-tab label="Abilities">
+      <app-ability-selector [abilities]="abilities" (onChange)="handleAbilityChange($event)" />
+    </mat-tab>
+  
+    <mat-tab label="Feats">
+      <app-feat-selector
+        [feats]="transformedFeatsData"
+        [selectedFeats]="selectedFeats"
+        [level]="level"
+        [knownAbilities]="Object.entries(abilities).map(([k, v]) => [k, v.total])"
+        [hasSpellcasting]="getSpellcasting()"
+        (onToggle)="handleFeatToggle($event)"
+      ></app-feat-selector>
+    </mat-tab>
+  
+    <mat-tab label="Equipment">
+      <app-equipment-selector
+        [options]="equipmentData"
+        [selected]="equipment"
+        (onToggle)="handleEquipmentToggle($event)"
+      ></app-equipment-selector>
+    </mat-tab>
+  
+    <mat-tab label="Inventory">
+      <app-inventory-manager
+        [inventory]="inventory"
+        (onAdd)="handleAddItem($event)"
+        (onRemove)="handleRemoveItem($event)"
+      ></app-inventory-manager>
+    </mat-tab>
+  
+    <mat-tab label="Summary">
+      <app-summary-tab
+        [name]="name"
+        [gender]="gender"
+        [alignment]="alignment"
+        [species]="species"
+        [characterClass]="characterClass"
+        [background]="background"
+        [abilities]="abilities"
+        [feats]="selectedFeats"
+        [equipment]="[...equipment, ...treasure]"
+        [languages]="languages"
+        [inventory]="inventory"
+      ></app-summary-tab>
+    </mat-tab>
+  </mat-tab-group>
+  

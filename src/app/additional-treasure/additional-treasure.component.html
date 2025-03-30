@@ -1,0 +1,14 @@
+<!-- src/app/additional-treasure/additional-treasure.component.html -->
+<div>
+    <h3>Additional Treasure</h3>
+    <div *ngFor="let item of treasure; let i = index">
+      <div>
+        {{ item }}
+        <button (click)="handleRemoveTreasure(i)">Remove</button>
+      </div>
+    </div>
+    
+    <input #newTreasure type="text" placeholder="Add new treasure item" />
+    <button (click)="handleAddTreasure(newTreasure.value); newTreasure.value=''">Add</button>
+  </div>
+  

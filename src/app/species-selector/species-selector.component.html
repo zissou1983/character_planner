@@ -1,0 +1,11 @@
+<!-- src/app/species-selector/species-selector.component.html -->
+<div>
+    <h2>Select a Species</h2>
+    <select [(ngModel)]="selected" (change)="handleSelectionChange(selected)">
+      <option value="">Select a Species</option>
+      <option *ngFor="let species of speciesList" [value]="species.id">
+        {{ species.name }}
+      </option>
+    </select>
+  </div>
+  

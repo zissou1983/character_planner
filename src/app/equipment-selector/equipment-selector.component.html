@@ -1,0 +1,15 @@
+<!-- src/app/equipment-selector/equipment-selector.component.html -->
+<div>
+    <h2>Select Equipment</h2>
+    <div *ngFor="let item of options">
+      <label>
+        <input
+          type="checkbox"
+          [checked]="selected.includes(item.id)"
+          (change)="handleToggle(item.id)"
+        />
+        {{ item.name }} ({{ item.cost }})
+      </label>
+    </div>
+  </div>
+  

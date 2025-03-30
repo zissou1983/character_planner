@@ -1,0 +1,9 @@
+<!-- src/app/class-selector/class-selector.component.html -->
+<div>
+    <h2>Select a Class</h2>
+    <select [ngModel]="selected" (ngModelChange)="handleClassSelection($event)">
+      <option value="">Select a Class</option>
+      <option *ngFor="let cls of classes" [value]="cls.id">{{ cls.name }}</option>
+    </select>
+  </div>
+  

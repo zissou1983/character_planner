@@ -1,0 +1,54 @@
+<!-- src/app/character-builder/character-builder.component.html -->
+<div>
+  <h2>Character Details</h2>
+  <div>
+    <label>Name:</label>
+    <input
+      type="text"
+      [(ngModel)]="name"
+      (ngModelChange)="handleDetailChange('name', $event)"
+    />
+  </div>
+  <div>
+    <label>Gender:</label>
+    <input
+      type="text"
+      [(ngModel)]="gender"
+      (ngModelChange)="handleDetailChange('gender', $event)"
+    />
+  </div>
+  <div>
+    <label>Alignment:</label>
+    <input
+      type="text"
+      [(ngModel)]="alignment"
+      (ngModelChange)="handleDetailChange('alignment', $event)"
+    />
+  </div>
+  <div>
+    <label>Inspiration:</label>
+    <input
+      type="checkbox"
+      [(ngModel)]="inspiration"
+      (ngModelChange)="handleDetailChange('inspiration', $event)"
+    />
+  </div>
+  <div>
+    <label>Languages:</label>
+    <div>
+      <div *ngFor="let lang of languages; let i = index">
+        <label>
+          <input
+            type="checkbox"
+            [checked]="knownLanguages.includes(lang)"
+            (change)="handleToggleLanguage(lang)"
+          />
+          {{ lang }}
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bind abilities to the app-summary-tab component -->
+  <app-summary-tab [abilities]="abilities"></app-summary-tab>
+</div>

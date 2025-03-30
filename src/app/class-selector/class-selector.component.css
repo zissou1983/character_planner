@@ -1,0 +1,11 @@
+/* src/app/class-selector/class-selector.component.css */
+select {
+    font-size: 1rem;
+    padding: 8px;
+    margin-top: 10px;
+  }
+  
+  option {
+    font-size: 1rem;
+  }
+  

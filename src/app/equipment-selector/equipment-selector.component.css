@@ -1,0 +1,11 @@
+/* src/app/equipment-selector/equipment-selector.component.css */
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
