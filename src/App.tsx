@@ -1,4 +1,5 @@
 import { Box, Heading, Text, Button, VStack } from '@chakra-ui/react';
+import './assets/styles/styles.css'; 
 
 export default function App() {
   return (
