@@ -1,17 +1,23 @@
+// src/types/character.ts
 
-// TypeScript Interfaces für D&D One Charakterplaner
-
+// Basisfähigkeiten für D&D One
 export type Ability = 'STR' | 'DEX' | 'CON' | 'INT' | 'WIS' | 'CHA';
 
-export interface AbilityScores {
-  STR: number;
-  DEX: number;
-  CON: number;
-  INT: number;
-  WIS: number;
-  CHA: number;
+// Struktur für detaillierte Werte je Fähigkeit (z. B. für Point Buy)
+export interface AbilityDetail {
+  base: number;
+  bonus: number;
+  total: number;
+  modifier: number;
 }
 
+// Map für alle Ability-Details
+export type AbilityMap = Record<Ability, AbilityDetail>;
+
+// Vereinfachte Darstellung nur mit Zahlenwerten
+export type AbilityScores = Record<Ability, number>;
+
+// Ausrüstungsplätze
 export type EquipmentSlot =
   | 'mainHand'
   | 'offHand'
@@ -26,6 +32,7 @@ export type EquipmentSlot =
   | 'belt'
   | 'misc';
 
+// Einzelnes Ausrüstungsteil
 export interface EquipmentItem {
   id: string; // z. B. "longsword" oder UUID
   name: string;
@@ -36,10 +43,12 @@ export interface EquipmentItem {
   description?: string;
 }
 
-export interface CharacterEquipment {
+// Ausrüstung je Slot
+export type CharacterEquipment = {
   [slot in EquipmentSlot]?: EquipmentItem;
-}
+};
 
+// Hauptcharakter-Interface
 export interface Character {
   id: string; // UUID oder eindeutiger Bezeichner
   name: string;
@@ -60,7 +69,7 @@ export interface Character {
   updatedAt: string;
 }
 
-// Beispiel: Ein Zauber könnte später wie folgt aussehen
+// Zauberdefinition
 export interface Spell {
   id: string;
   name: string;
@@ -74,5 +83,13 @@ export interface Spell {
   classList: string[]; // Welche Klassen diesen Zauber nutzen können
 }
 
-// ToDo: Interfaces für Species, Class, Subclass, Background, Feat etc.
-// Diese können jeweils z. B. passives Wissen (Sprachen, Proficiencies), Attributsboni usw. enthalten.
+// Feat (Talent) - wird in FeatSelector verwendet
+export interface Feat {
+  id: string;
+  name: string;
+  description: string;
+  prerequisites: string[];
+  effects: string[];
+}
+
+// ToDo: Weitere Interfaces für Species, Class, Background, Feat usw.

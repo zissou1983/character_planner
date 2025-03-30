@@ -1,10 +1,10 @@
-// src/theme.ts
-import { extendTheme, ThemeConfig } from '@chakra-ui/react'
+// src/theme/theme.ts
+import { extendTheme, ThemeConfig } from '@chakra-ui/react';
 
 const config: ThemeConfig = {
   initialColorMode: 'dark',
   useSystemColorMode: false,
-}
+};
 
 const theme = extendTheme({
   config,
@@ -26,5 +26,6 @@ const theme = extendTheme({
     heading: `'Cinzel', serif`,
     body: `'Open Sans', sans-serif`,
   },
-})
-export default theme
+});
+
+export default theme;  // Hier der Standard-Export

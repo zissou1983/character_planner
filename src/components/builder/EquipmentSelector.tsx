@@ -1,14 +1,40 @@
 import React from 'react';
 
-interface EquipmentSelectorProps {
-  // TODO: Props definieren
+interface EquipmentItem {
+  id: string;
+  name: string;
+  category: string;
+  cost: string;
 }
 
-export default function EquipmentSelector(props: EquipmentSelectorProps) {
+interface EquipmentSelectorProps {
+  options: EquipmentItem[];
+  selected: string[];
+  onToggle: (name: string) => void;
+}
+
+export default function EquipmentSelector({
+  options,
+  selected,
+  onToggle,
+}: EquipmentSelectorProps) {
   return (
     <div>
-      <h2>EquipmentSelector</h2>
-      {{/* Inhalte folgen */}}
+      <h2>Select Equipment</h2>
+      <div>
+        {options.map((item) => (
+          <div key={item.id}>
+            <label>
+              <input
+                type="checkbox"
+                checked={selected.includes(item.id)}
+                onChange={() => onToggle(item.id)}
+              />
+              {item.name} ({item.cost})
+            </label>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
