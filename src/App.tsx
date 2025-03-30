@@ -2,6 +2,8 @@ import { Box, Heading, Text, Button, VStack } from '@chakra-ui/react';
 import './assets/styles/styles.css'; 
 
 export default function App() {
+  console.log("App wird angezeigt");  // Hier ist der console.log
+  
   return (
     <Box minH="100vh" bg="linear-gradient(to bottom, #2b6cb0, #2c5282)" color="white" p={8}>
       <VStack spacing={6} align="start">
